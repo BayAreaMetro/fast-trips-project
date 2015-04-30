@@ -5,13 +5,13 @@ title: Reference
 ---
 ### Deliverables
 
-*[Task 1 Deliverable: Updated Workplan](../documents/2015-04-07-RELEASE-Workplan-Technical Memorandum.pdf)*
+*[Task 1 Deliverable: Updated Workplan]({{ site.baseurl }}/documents/2015-04-07-RELEASE-Workplan-Technical Memorandum.pdf)*
 
 ### Progress Reports and Application
 
-*[Winter 2015 Progress Report](../documents/2015-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
+*[Winter 2015 Progress Report]({{ site.baseurl }}/documents/2015-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
 
-*[Grant Application](../documents/C10_MTC_Application.pdf)*
+*[Grant Application]({{ site.baseurl }}/documents/C10_MTC_Application.pdf)*
 
 ### References
 
