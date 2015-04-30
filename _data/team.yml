@@ -1,0 +1,132 @@
+# Team names, titles and social links
+people:
+- name: David
+  lastname: Ory
+  pic: dave.png
+  position: Principal Investigator and Chief Contract Wrangler
+  affil: MTC
+  social:
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=344818185
+    - title: github
+      url: http://github.com/DavidOry
+      
+- name: Billy
+  lastname: Charlton
+  pic: billy.jpg
+  position: PSRC Manager and Software Guru
+  affil: PSRC
+  social:
+    - title: twitter
+      url: sfbilly
+    - title: google-plus
+      url: #
+    - title: github
+      url: http://github.com/billyc
+
+- name: Joe
+  lastname: Castiglione
+  pic: joe.jpg
+  position: SFCTA Manager and DTA Integration Expert
+  affil: SFCTA
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/profile/view?id=39790039
+    - title: github
+      url: #
+      
+- name: Diana
+  lastname: Dorinson
+  pic: diana.jpg
+  position: Chief Cat Wrangler (Project Manager)
+  affil: Transportation Analytics
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/pub/diana-m-dorinson/0/177/911
+      
+- name: Elizabeth
+  lastname: Sall
+  pic: elo.jpg
+  position: Technical Lead
+  affil: UrbanLabs LLC
+  social:
+    - title: twitter
+      url: e_lo
+    - title: google-plus
+      url: #
+    - title: github
+      url: http://github.com/e-lo
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=5649127
+      
+- name: Lisa
+  lastname: Zorn
+  pic: lisa.jpg
+  position: Software Guru
+  affil: LMZ LLC
+  social:
+    - title: twitter
+      url: lmz
+    - title: github
+      url: http://github.com/lmz
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=5511137
+
+- name: Stefan
+  lastname: Coe
+  pic: stefan.png
+  position: Task Lead for Networks & Implementation
+  affil: PSRC
+  social:
+    - title: github
+      url: https://github.com/stefancoe
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=30874134
+      
+- name: Drew
+  lastname: Cooper
+  pic: drew.jpg
+  position: Task Lead for Transit Data & Implementation 
+  affil: SFCTA
+  social:
+    - title: twitter
+      url: sdrewc
+    - title: github
+      url: https://github.com/sdrewc
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=86230175
+      
+- name: Suzanne
+  lastname: Childress
+  pic: ennazus.jpg
+  position: Task Lead for Transit Rider Behavior Task
+  affil: PSRC
+  social:
+    - title: twitter
+      url: ennazus
+    - title: github
+      url: https://github.com/ennazus
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=159617418
+      
+- name: Dan
+  lastname: Tischler
+  pic: Dan.jpg
+  position: Task Lead for Test Networks and Travel Demand
+  affil: SFCTA
+  social:
+    - title: github
+      url: https://github.com/dantischler
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=66183898
+      
+- name: Brice
+  lastname: Nichols
+  pic: brice.jpg
+  position: Code expert on most tasks
+  affil: PSRC
+  social:
+    - title: github
+      url: https://github.com/bricegnichols
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=102356632

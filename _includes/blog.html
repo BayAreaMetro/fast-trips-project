@@ -1,0 +1,42 @@
+<!-- Blog Grid Section -->
+<div class="container">
+        <div class="row">
+        <div class="col-md-8 text-left">
+            <h2 class="section-heading">Updates from the Field</h2>
+        </div>
+        </div>
+        {% for post in site.posts limit: 6 %}
+            <div class="row">
+            	<div class="col-md-8 text-left">
+             		{% if forloop.first == false %}
+                		<div class="faint_border"></div>
+             		{% endif %}
+                	<div class="entry entry_list">
+                    	<div class="entry_image_wrapper">
+                       		<img class="entry_image" src="{{ site.baseurl }}{{ post.image }}">
+                    	</div>
+                    	<div class="post-title h3">
+                      				<a href="{{ post.url }}">{{ post.title }}</a>
+                     	</div>
+			         	<div class="lead">
+			            			By <a href="{{ site.baseurl }}/meta/{{ post.author }}">{{ post.author }}</a>
+                     	</div>
+                     	<div class="muted">
+			            			<i>{{ post.date | date_to_long_string }}</i>
+                     	</div>
+                     	<div class="post">
+                        			{{ post.content | split:'<!--break-->' | first }}
+                        			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
+                            			&raquo;&nbsp;Read&nbsp;More
+                        			</a>
+                     	</div>
+                    <!-- /entry entry_list -->
+                	</div>
+                <!-- /col-md-8 text-left-->
+        		</div>
+        	<!-- /row -->
+        	</div>
+        {% endfor %}
+<!-- /container -->
+</div>
+    

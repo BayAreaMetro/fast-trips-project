@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% for person in site.data.team.people %}
+    {% if person.name == page.teammate %}
+        {% assign p = person %}
+    {% endif %}
+{% endfor %}
+
+<h2 id="teammate">{{ p.name }} {{ p.lastname }}</h2>
+<hr/>
+
+<div class="row">
+	<div class="col-sm-2" align-center>
+		<div class="row"> 
+    		<div class="entry_image_wrapper">
+        		<img src="{{ site.url }}/img/team/{{p.pic }}" class="img-responsive img-circle img-team" alt="">
+        	</div>
+        </div>
+        <div class="row">
+            {% for network in p.social %}
+        		<a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+			{% endfor %}
+		</div>
+    </div>
+	<div class="col-md-6">
+		<div class="lead">
+			{{ p.position }}
+    	</div>
+
+		<div class="post">
+			{{ content }}
+		</div>
+	</div>
+
+</div>
+
+
+

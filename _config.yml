@@ -1,0 +1,30 @@
+baseurl:  
+realurl: http://github.com/metropolitantransportationcommission
+
+# Site settings
+title: Moving Fast-Trips from Research to Practice...a three-agency experience
+
+timezone: America/Los_Angeles
+
+include: ["references", "meta", "bigpicture", "technical", "attachments"]
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3366ff
+  secondary: fed136
+  secondary-dark: 4d4d4d
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/metropolitantransportationcommission
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: San Francisco, CA
+  - line: Oakland, CA
+  - line: Seattle, WA
+
+# Build settings
+markdown: kramdown
+permalink: pretty

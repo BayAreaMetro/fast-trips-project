@@ -1,0 +1,180 @@
+---
+layout: default
+title: Technical Details
+---
+
+<div class="container">
+	<div class="row">
+	<div class="col-lg-12 text-left">
+		<h2 class="section-heading">Technical Tasks</h2>
+	<!-- /col-lg-12 text-center -->
+	</div> 
+	<!-- /row -->
+	</div> 
+	
+	<div class="row">
+	<div class="col-md-4 col-sm-6 task-item" id="network-design">
+		<div class="task-caption">
+			<h4> Network Data & Design
+			</h4>
+			<p class="text-muted">
+			  This task encompasses the development of schedule-based transit networks in 
+			  both regions, access and transfer links, and any setup or maintenance tools 
+			  to facilitate the continued use of the tool.
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<div class="col-md-4 col-sm-6 task-item" id="transit-demand">
+		<div class="task-caption">
+			<h4> Transit Demand
+			</h4>
+			<p class="text-muted">
+			This task will validate, test, and adjust disaggregate transit demand data 
+			from the two regions using available observed data in order to ensure the 
+			demand inputs for Fast-Trips calibration are consistent with observed behavior.
+			  This will allow us in the calibration phase to ascertain the network model 
+			  deficiencies, and not confound them with demand issues.			
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<div class="col-md-4 col-sm-6 task-item" id="rider-behavior">
+		<div class="task-caption">
+			<h4> Transit Rider Behavior
+			</h4>
+			<p class="text-muted">
+			  This task includes the data development from the observed transit route 
+			  choice and the estimation and calibration of route choice models capable 
+			  of capturing appropriate heterogeneity and sensitivity of transit rider 
+			  behavior.  This task will be informed by SFCTA’s past experience estimating 
+			  a bicycle route choice model and CTR’s past experience estimating a transit 
+			  route choice model in Austin.
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	<!-- /row -->
+	</div>
+	<div class="row">
+	<div class="col-md-4 col-sm-6 task-item" id="performance-data">
+		<div class="task-caption">
+			<h4> Transit Performance Data
+			</h4>
+			<p class="text-muted">
+			  This task includes the collation, evaluation, and packaging of transit 
+			  performance data that will be used to evaluate the performance of the 
+			  modeling system.
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<div class="col-md-4 col-sm-6 task-item" id="software">
+		<div class="task-caption">
+			<h4> Software Implementation
+			</h4>
+			<p class="text-muted">
+			This task develops the transit-simulation software Fast-Trips and includes
+			the refactoring of Fast-Trips to Python, addition of features for skimming,
+			route choice generation, and the development of a performance indicator
+			library.  
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<div class="col-md-4 col-sm-6 task-item" id="test-case">
+		<div class="task-caption">
+			<h4> Test Case Development
+			</h4>
+			<p class="text-muted">
+			  This task includes the specifying and management of various scenarios used 
+			  for testing software validity and model performance.  
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<!-- /row -->
+	</div>
+	<div class="row">
+
+	<div class="col-md-4 col-sm-6 task-item" id="implementation">
+		<div class="task-caption">
+			<h4> Implementation, Testing, and Calibration
+			</h4>
+			<p class="text-muted">
+			  This task includes the implementation and testing of the Fast-Trips transit
+			  simulation into the SF-CHAMP and SoundCast model systems, and the calibration
+			  of Fast-Trips in the SF-CHAMP system. 
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	
+	<!-- /row -->
+	</div> 
+	
+	
+	<div class="row">
+	<div class="col-lg-12 text-left">
+		<h2 class="section-heading">Technical Toolbox</h2>
+	<!-- /col-lg-12 text-center -->
+	</div> 
+	<!-- /row -->
+	</div>
+	
+	<div class="row">
+	<div class="col-md-4 col-sm-6 task-item" id="network-design">
+		<div class="task-caption">
+			<h4> Data standards
+			</h4>
+			<p class="text-muted">
+			  <ul>
+			  	<li> Demand and Skim Matrices: <a href="http://github.com/osPlanning/omx">OMX</a></li>
+			 	<li> Transit Networks: <a href="https://developers.google.com/transit/gtfs/">GTFS</a>, 
+			 		with some additional fields that are needed.</li>
+			  </ul>
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<div class="col-md-4 col-sm-6 task-item" id="transit-demand">
+		<div class="task-caption">
+			<h4> Code we are developing
+			</h4>
+			<p class="text-muted">
+			  <ul>
+			  	<li> Person-based transit simulation: <a href="https://github.com/MetropolitanTransportationCommission/fast-trips">Fast-Trips</a></li>
+			  </ul>			
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	
+	<div class="col-md-4 col-sm-6 task-item" id="rider-behavior">
+		<div class="task-caption">
+			<h4> Technology we leverage
+			</h4>
+			<p class="text-muted">
+			  <ul>
+			  	<li> Code Hosting: <a href="https://github.com">GitHub</a></li>
+			  	<li> Language: <a href="https://python.org">Python</a></li>
+			    <li> Model Estimation Software: <a href="http://biogeme.epfl.ch/">BIOGEME</a></li>
+			  </ul>
+			</p>
+		</div>
+	<!-- /col-md-4 col-sm-6 task-item -->
+	</div>
+	<!-- /row -->
+	</div>
+<!-- /container -->
+</div> 
+
+
+

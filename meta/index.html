@@ -1,0 +1,106 @@
+---
+layout: default
+title: meta
+---
+
+<!-- Partners Section -->
+    <div class="col-lg-12 text-left">
+        <h2 class="section-subheading text-muted">Partner Agencies</h2>
+        <div class="row">
+        <div class="col-md-6 text-left">
+        	{% for agency in site.data.partners.agency_partners %}
+                			<p>
+                			<a href="{{ agency.url }}">
+                    		<h5>{{ agency.name }}</h5>
+                    		</a>
+                    		</p>
+        		{% endfor %}
+    		</div>
+        	<div class="col-md-4">
+        		   <p>
+                    We are three public agencies with similar priorities, who have decided
+                    to work together to solve a similar technical problem.
+                    </p>
+                    <p>
+                    By working together, we will:
+                    	<ul>
+                    	 <li>cross-pollinate innovative ideas</li> 
+                    	 <li>broaden the user-base of the technology</li>
+                    	</ul>
+                    </p>
+                    <p>                    	
+                    By leading from within public agencies, we will develop technology that is:
+                    	<ul>
+                    	 <li>relevant to the needs of planners and decision makers</li>
+                    	 <li>usable and embraced by agency staff</li>
+                    	</ul>
+                    </p>
+        	</div>
+
+    	</div>
+
+    <div class="faint_border">
+    </div>
+    
+    <div class="col-lg-12 text-left">
+        <h2 class="section-subheading text-muted">Funding Program</h2>
+        <div class="row">
+        <div class="col-md-6">
+		<p>
+		The project is funded by the SHRP2 Implementation Assistance Program for the C10 project, 
+        which is managed by the Federal Highway Administration.  SHRP2 is a research program created by 
+        congress and administered by the National Academy of Sciences Transportation Research Board. 
+        </p>
+        <p>
+        This project is one of four C10 implementation assistance projects across the U.S.,
+        and the only one to tackle person-level transit as opposed to solely vehicular travel.  
+        </p>
+        <p>
+        Other C10 implementation assistance projects are in Maryland, Atlanta, and Ohio. 
+        We are collaborating with these projects through quarterly phone calls and frequent 
+        publication of our materials and progress on this website.
+        </p>
+        <p>
+        The SHRP2 implementation assistance money is being partially matched by in-kind 
+        contributions from the three partner agencies.
+        </p>
+        </div>
+       <div class="col-md-6">
+        {% for agency in site.data.partners.funding_partners %}
+            <div class="col-md-12">
+                <a href="{{ agency.url }}">
+                    <img src="{{ site.url }}/{{ agency.logo }}" class="img-responsive partner-logo white-on-white-img" alt="">
+                </a>
+            </div>
+        {% endfor %}
+         </div>
+    </div>
+    
+    <div class="faint_border">
+    </div>
+<!-- Team Section -->
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2 class="section-heading">Team Members</h2>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.data.team.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="{{ site.url }}/img/team/{{ member.pic }}" class="img-responsive img-circle img-team" alt="">
+                        <h4><a href={{ site.url }}/meta/{{ member.name}}>{{ member.name }}</a></h4>
+                        <h6>{{ member.affil }}</h6>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+

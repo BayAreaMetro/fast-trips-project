@@ -1,0 +1,35 @@
+agency_partners:
+ - name: Metropolitan Transportation Commission
+   location: Oakland, CA
+   url: http://www.mtc.ca.gov
+   logo: img/logos/mtc-small-logo.png
+ - name: San Francisco County Transportation Authority
+   location: San Francisco, CA
+   url: http://www.sfcta.org
+   logo: img/logos/sfcta-logo.jpeg
+ - name: Puget Sound Regional Council
+   location: Seattle, WA
+   url: http://www.psrc.org/
+   logo: img/logos/psrc-logo-dull-green.png
+   
+collaboration_partners:
+ - name: Network Modeling Center at the Center for Transportation Research at the University of Texas at Austin
+   url: http://ctr.utexas.edu/nmc/
+   logo: img/logos/ctr-nmc-logo.png
+ - name: University of Queensland
+   url: http://www.civil.uq.edu.au/hickman
+   logo: img/logos/uq-logo.gif
+ - name: Transportation Analytics
+   url: http://transportationanalytics.net
+   logo: img/logos/tanalytics.png
+ - name: UrbanLabs LLC
+   url: http://urbanlabs.io
+   logo: img/logos/urbanlabs.png
+ - name: LMZ LLC
+   url: #
+   logo: #
+
+funding_partners:
+ - name: Federal Highway Administration
+   url: http://www.fhwa.dot.gov/goshrp2/
+   logo: img/logos/fhwa-logo.png

@@ -1,0 +1,23 @@
+  </div>
+  </body>
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; 2015
+                    <a href="http://www.mtc.ca.gov">MTC</a>,
+                    <a href="http://www.sfcta.org">SFCTA</a>, &
+                    <a href="http://www.psrc.org">PSRC</a>                   
+                    </span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
