@@ -1,18 +1,18 @@
 ---
 title: "Updated Workplan: Completed"
 author: Elizabeth
-image: /img/posts/schedule.png
+image: {{ site.baseurl }}/img/posts/schedule.png
 comments: true
 layout: post
 tags: [meta, deliverable]
 
 images:
    image1:
-      image: /img/posts/schedule.png
+      image: {{ site.baseurl }}/img/posts/schedule.png
       caption: "Overall Project Schedule with Major Milestones"
       source: "MTC, PSRC, & SFCTA"
    image2:
-      image: /img/posts/asana-screenshot.png
+      image: {{ site.baseurl }}/img/posts/asana-screenshot.png
       caption: "Asana Online Management Tool"
       source: "MTC, PSRC, & SFCTA"
 ---
@@ -23,7 +23,7 @@ that our first order of business after getting the contracting in place would be
 the workplan with enough detail so that everybody was on the same page, but enough freedom
 to allow for innovation along the way.
 
-While you can read the [whole workplan](/attachments/2015-04-07-RELEASE-Workplan-Technical-Memorandum.pdf),
+While you can read the [whole workplan]({{ site.baseurl }}/attachments/2015-04-07-RELEASE-Workplan-Technical-Memorandum.pdf),
  I thought it would be interesting to highlight a few interesting (from our perspective) components.  
 
 ##### Tasks led by agency staff

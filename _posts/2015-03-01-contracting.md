@@ -1,7 +1,7 @@
 ---
 title: "Working together through bureaucratic fences"
 author: Dave
-image: /img/posts/transit-fence.jpg
+image: {{ site.baseurl }}/img/posts/transit-fence.jpg
 comments: true
 layout: post
 tags: [meta]
@@ -60,7 +60,7 @@ if they believe the outcome will be better for their agency.  Even though FHWA h
 grant level at the same maximum regardless of how many agencies had signed on, we thought we
 had a better chance together than apart.
 
-We have posted a [full copy of our grant application](Documents/C10_MTC_Application.pdf).
+We have posted a [full copy of our grant application]({{ site.baseurl }}/Documents/C10_MTC_Application.pdf).
 
 ### We won!  Now can we start work?
 
