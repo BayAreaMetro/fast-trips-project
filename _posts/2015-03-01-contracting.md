@@ -1,7 +1,7 @@
 ---
 title: "Working together through bureaucratic fences"
 author: Dave
-image: {{ site.baseurl }}/img/posts/transit-fence.jpg
+image: /img/posts/transit-fence.jpg
 comments: true
 layout: post
 tags: [meta]

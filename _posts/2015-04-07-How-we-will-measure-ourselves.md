@@ -1,7 +1,7 @@
 ---
 title: "Measuring ourselves"
 author: Diana
-image: {{ site.baseurl }}/img/posts/tape-measure.jpg
+image: /img/posts/tape-measure.jpg
 comments: true
 layout: post
 tags: [meta]

@@ -1,18 +1,18 @@
 ---
 title: "Updated Workplan: Completed"
 author: Elizabeth
-image: {{ site.baseurl }}/img/posts/schedule.png
+image: /img/posts/schedule.png
 comments: true
 layout: post
 tags: [meta, deliverable]
 
 images:
    image1:
-      image: {{ site.baseurl }}/img/posts/schedule.png
+      image: /img/posts/schedule.png
       caption: "Overall Project Schedule with Major Milestones"
       source: "MTC, PSRC, & SFCTA"
    image2:
-      image: {{ site.baseurl }}/img/posts/asana-screenshot.png
+      image: /img/posts/asana-screenshot.png
       caption: "Asana Online Management Tool"
       source: "MTC, PSRC, & SFCTA"
 ---
