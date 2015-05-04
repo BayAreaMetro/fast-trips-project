@@ -25,6 +25,10 @@ p {
     line-height: 1.75;
 }
 
+ul {
+	font-size: 14px;
+}
+
 p.large {
     font-size: 16px;
 }
