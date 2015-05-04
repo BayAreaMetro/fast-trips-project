@@ -43,7 +43,7 @@ is pulled into a fire drill, the other can come in and help it out.
 I think at the end of the day, the fact that we all knew each other and had and immense amount
 of trust and respect for each other was what sealed the deal.  
 
-### The Application
+#### The Application
 
 When FHWA released the request for proposals, we all brainstormed both internally and
 in small groups potential projects.  Something that was key was that the proposal was required 
@@ -62,7 +62,7 @@ had a better chance together than apart.
 
 We have posted a [full copy of our grant application]({{ site.baseurl }}/Documents/C10_MTC_Application.pdf).
 
-### We won!  Now can we start work?
+#### We won!  Now can we start work?
 
 Not so fast.  Even though we were notified in Summer 2014 that we had won the grant, there 
 were a number of next steps that would need to happen before we were allowed to kick-off in 
@@ -75,7 +75,7 @@ A summary of these is as follows:
 3. Deliverables-based MTC to PSRC Funding Agreement
 4. Deliverables-based MTC to UT Austin Funding Agreement
 
-### Issue resolution framework
+#### Issue resolution framework
 
 With so many agencies, we also thought it was going to be important to write out explicitly
 how we would resolve any disputes that we couldn't resolve by consensus:
@@ -89,7 +89,7 @@ how we would resolve any disputes that we couldn't resolve by consensus:
 	 discussion, there will be a vote whereby majority of the Management Team (comprised 
 	 of David Ory, Joe Castiglione, and Billy Charlton or their proxies) will rule.
 
-### Drawbacks
+#### Drawbacks
 
 There are a number of drawbacks to this approach, the primary one being the incredible
 amount of time that the funding agreements took to create, agree upon, and execute.  This
