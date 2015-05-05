@@ -4,5 +4,5 @@ teammate: Diana
 ---
 
 
-Diana is a principal and founder of Transportation Analytics
+Diana is the Founder and Principal of Transportation Analytics
 
