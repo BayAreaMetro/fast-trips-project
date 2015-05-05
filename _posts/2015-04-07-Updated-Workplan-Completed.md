@@ -23,7 +23,7 @@ that our first order of business after getting the contracting in place would be
 the workplan with enough detail so that everybody was on the same page, but enough freedom
 to allow for innovation along the way.
 
-While you can read the [whole workplan]({{ site.baseurl }}/attachments/2015-04-07-RELEASE-Workplan-Technical-Memorandum.pdf),
+While you can read the [whole workplan]({{ site.baseurl }}/library/2015-04-07-RELEASE-Workplan-Technical-Memorandum.pdf),
  I thought it would be interesting to highlight a few interesting (from our perspective) components.  
 
 ##### Tasks led by agency staff
