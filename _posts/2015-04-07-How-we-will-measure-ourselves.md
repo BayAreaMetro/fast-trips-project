@@ -78,7 +78,7 @@ learned are sufficiently well documented that peers can follow the work and repe
 
 ##### Outputs
   
-> **Goal:** Project data and information is shared with the academic and practitioner communities.
+> **Goal:** Project data and information is shared with the academic and practitioner communities.   
 > **Metrics:**  
 >
 > * Number of presentations delivered (conferences, technical meetings, TRB) [ 1+ ]
