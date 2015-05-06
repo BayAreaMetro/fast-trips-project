@@ -1,35 +1,31 @@
 Fast-Trips Project Website
 ====================
 
-SITE STATUS = DRAFT
+SITE STATUS = FOR MGT REVIEW
 
 ## TODO
 
 #####Content
 * Add more photos to pages
 * Add all team members
-* Finish and publish posts
 * Add post on progress report
 
 #####HTML/CSS
-* Fix blog alignment - issue is when post truncates in the middle of an HTML tag
 * Make post photos the right size
 * Add tags to posts
 * Create blog by tag
-* Fix links back to index
 * Fix main title text buffer
 
 # Organization is as follows...
 
-###Documents and References
+### Library of Documents
 
-Documents are stored in '/documents'
-Documents and references are listed in '/references/index.md'
+Documents are stored in '/library' and are listed in '/library/index.md'
 
 ###Posts
 
 Posts are in '/_posts'
-Images are in '/img/posts'
+Post images are in '/img/posts'
 
 ###Team and Partners
 
@@ -37,7 +33,7 @@ Team members and info are in '/data/_team.yml'
 
 Partner agencies and info are in '/data/_partners.html'
 
-Images are in '/img/team/'
+Profile Images are in '/img/team/'
 
 
 =========
