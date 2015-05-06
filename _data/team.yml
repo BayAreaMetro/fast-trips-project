@@ -18,9 +18,9 @@ people:
   affil: PSRC
   social:
     - title: twitter
-      url: sfbilly
+      url: http://twitter.com/billyinseattle
     - title: google-plus
-      url: #
+      url: http://plus.google.com/+billycharlton
     - title: github
       url: http://github.com/billyc
 
@@ -51,9 +51,9 @@ people:
   affil: UrbanLabs LLC
   social:
     - title: twitter
-      url: e_lo
+      url: http://twitter.com/e_lo
     - title: google-plus
-      url: #
+      url: http://plus.google.com/+ESall
     - title: github
       url: http://github.com/e-lo
     - title: linkedin
@@ -66,7 +66,7 @@ people:
   affil: LMZ LLC
   social:
     - title: twitter
-      url: lmz
+      url: http://twitter.com/lmz
     - title: github
       url: http://github.com/lmz
     - title: linkedin
@@ -90,7 +90,7 @@ people:
   affil: SFCTA
   social:
     - title: twitter
-      url: sdrewc
+      url: http://twitter.com/sdrewc
     - title: github
       url: https://github.com/sdrewc
     - title: linkedin
@@ -103,7 +103,7 @@ people:
   affil: PSRC
   social:
     - title: twitter
-      url: ennazus
+      url: http://twitter.com/ennazus
     - title: github
       url: https://github.com/ennazus
     - title: linkedin
