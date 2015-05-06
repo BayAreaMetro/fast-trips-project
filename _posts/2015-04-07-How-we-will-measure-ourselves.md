@@ -10,19 +10,18 @@ tags: [meta]
 
 #### ----DRAFT POST---
 
-Federal Highways requested that we have a way to measure *how we are doing* and *how we did* 
-for this project, so this is a summary of what we came up with.
+Federal Highways requested that we measure our performance on this project, including both monitoring our progress along the way (*Are we on track?*) and identifying the results of our efforts (*How did it work out?*).  This post summarizes the performance measures that we selected.
 
 #### Considerations
 
-We wanted to be able to measure both *outputs* (did we do X?) and *outcomes* 
-(did X make a difference in Y?) for three categories:
+We wanted metrics that would tie to both *outputs* (did we do X?) and *outcomes* 
+(did our work make a difference in Y?) for three categories:
 
 * Tool implementation and deployment
 * Capacity building and partnerships
 * Technology transfer / research dissemination
 
-We wanted to use a metric that lent itself to a definitive and objective answer (i.e. yes, no, 1, 9, 33, etc) 
+We wanted to use metrics that lend themselves to a definitive and objective answer (i.e. yes, no, 1, 9, 33, etc) 
 
 We wanted to be able to conduct the evaluation without a significant amount of effort (since 
 this request was added after we had done our budget)
