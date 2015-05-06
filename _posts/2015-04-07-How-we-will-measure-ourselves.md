@@ -8,8 +8,6 @@ tags: [meta]
 
 ---
 
-#### ----DRAFT POST---
-
 Federal Highways requested that we measure our performance on this project, including both monitoring our progress along the way (*Are we on track?*) and identifying the results of our efforts (*How did it work out?*).  This post summarizes the performance measures that we selected.
 
 #### Considerations
