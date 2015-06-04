@@ -1,19 +1,15 @@
-<div class="col-lg-12">
-
-	{% for image in include.image.image %}
-	<div class="col-md-8">
-    <a href="{{ site.baseurl }}{{image}}"><img width="100%" src="{{ site.baseurl }}{{image}}" alt="{{include.image.caption}}" /></a><br/>
-    </div>
-    {% endfor %}
-    
+<div class="row">
+	
+	<div class="col-lg-8">
+    <a href="{{ site.baseurl }}{{include.image.image}}"><img width="80%" src="{{ site.baseurl }}{{include.image.image}}" alt="{{include.image.caption}}" /></a><br/>
     <div class="text-muted">
-    
            {{ include.image.caption }}
            {% for source in include.image.source %}
                 {{'Source: ' | append:source | markdownify }}
            {% endfor %}
     </div>
-
+    
+    </div>
 
 </div>
 
