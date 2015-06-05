@@ -83,19 +83,6 @@ people:
     - title: linkedin
       url: http://www.linkedin.com/profile/view?id=30874134
       
-- name: Drew
-  lastname: Cooper
-  pic: drew.jpg
-  position: Task Lead for Transit Data & Implementation 
-  affil: SFCTA
-  social:
-    - title: twitter
-      url: http://twitter.com/sdrewc
-    - title: github
-      url: https://github.com/sdrewc
-    - title: linkedin
-      url: http://www.linkedin.com/profile/view?id=86230175
-      
 - name: Suzanne
   lastname: Childress
   pic: ennazus.jpg
@@ -112,14 +99,27 @@ people:
 - name: Dan
   lastname: Tischler
   pic: dan.jpg
-  position: Task Lead for Test Networks and Travel Demand
+  position: Task Lead for Test Networks
   affil: SFCTA
   social:
     - title: github
       url: https://github.com/dantischler
     - title: linkedin
       url: http://www.linkedin.com/profile/view?id=66183898
-      
+
+- name: Drew
+  lastname: Cooper
+  pic: drew.jpg
+  position: Task Lead for Transit Data & Implementation 
+  affil: SFCTA
+  social:
+    - title: twitter
+      url: http://twitter.com/sdrewc
+    - title: github
+      url: https://github.com/sdrewc
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=86230175
+
 - name: Brice
   lastname: Nichols
   pic: brice.jpg
@@ -130,3 +130,14 @@ people:
       url: https://github.com/bricegnichols
     - title: linkedin
       url: http://www.linkedin.com/profile/view?id=102356632
+      
+- name: Bhargava
+  lastname: Sana
+  pic: bhargava.jpg
+  position: Task Lead for Travel Demand
+  affil: SFCTA
+  social:
+    - title: github
+      url: https://github.com/bhargavasana
+    - title: linkedin
+      url: https://www.linkedin.com/in/bsana
