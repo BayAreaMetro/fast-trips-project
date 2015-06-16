@@ -92,7 +92,7 @@ and resources throughout the process to assess what the best option was for proc
 
 ##### Coordinate with academic educators
 
-We chose to work with the (University of Texas at Austin's Network Modeling Center)[http://ctr.utexas.edu/nmc/]
+We chose to work with the [University of Texas at Austin's Network Modeling Center](http://ctr.utexas.edu/nmc/)
  because they both develop and use the Fast-Trips software, and have several staff committed to 
 developing tools to educate university students about travel modeling.  By bringing them
 along in the process, we have engaged the vast majority of "other users" of Fast-Trips, can
