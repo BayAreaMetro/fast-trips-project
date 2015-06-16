@@ -4,7 +4,7 @@ author:
  - Elizabeth
  - " & "
  - Billy
-image: /img/posts/kingctydoor.jpg
+image: /img/posts/Bart_C2_car_Interior.jpg
 comments: true
 layout: post
 tags: [meta]
