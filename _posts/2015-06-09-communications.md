@@ -71,7 +71,7 @@ In this vein, we have made almost everything we can open and free to view in a *
 - [data standards]({{ site.baseurl }}/technical/) (e.g. the extended GTFS format for Fast-Trips)
 - [workplan]({{ site.baseurl }}/library/2015-04-07-RELEASE-Workplan-Technical%20Memorandum.pdf)
 - [performance measures]({{ site.baseurl }}/2015/04/07/How-we-will-measure-ourselves/)
-- [progress reports]/library/) to FHWA
+- [progress reports]({{ site.baseurl }}/library/) to FHWA
 - data (when we get there)
 - results (when we get there)
 - our thoughts, struggles, and progress [via the blog]({{ site.baseurl }}/updates)
