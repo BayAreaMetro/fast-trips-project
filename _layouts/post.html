@@ -17,7 +17,13 @@
    				{{ page.title }}
    			</div>
    			<div class="lead">
-				By <a href="{{ site.baseurl }}/meta/{{ page.author }}">{{ page.author }}</a>
+				By  {% for person in page.author %}
+						{% if forloop.first == false %}
+                		  +
+             			{% endif %}
+             			<a href="{{ site.baseurl }}/meta/{{ person }}">{{ person }} </a>
+						
+					{% endfor %}
             </div>
             <div class="muted">
 				<i>{{ page.date | date_to_long_string }}</i>

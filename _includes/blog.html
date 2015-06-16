@@ -19,7 +19,12 @@
                       				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                      	</div>
 			         	<div class="lead">
-			            			By <a href="{{ site.baseurl }}/meta/{{ post.author }}">{{ post.author }}</a>
+			            	By  {% for person in post.author %}
+									{% if forloop.first == false %}
+                		  			+
+             						{% endif %}
+             						<a href="{{ site.baseurl }}/meta/{{ person }}">{{ person }} </a>	
+								{% endfor %}
                      	</div>
                      	<div class="muted">
 			            			<i>{{ post.date | date_to_long_string }}</i>

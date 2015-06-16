@@ -2,7 +2,6 @@
 title: "Communication Station"
 author:
  - Elizabeth
- - " & "
  - Billy
 image: /img/posts/Bart_C2_car_Interior.jpg
 comments: true
@@ -18,6 +17,7 @@ todo:
 
 When our agencies (MTC, SFCTA, and PSRC) were in the early stages of discussing a potential 
 collaboration between us, there were three primary themes that we were all in agreement on:
+
 1. using this money for its intended purpose: implementing a planning-ready dynamic network 
 model within a public agency, that is **useful** and capable of answering important and
 relevant questions;
@@ -35,7 +35,7 @@ both gain information from these sources as well as disseminate it to them.
 
 <!--break-->
 
-**academic**:
+**Academic**:
 
 - share advances that we have made
 - highlight future research topics (things that work in theory but still have gaps in practice)
@@ -43,7 +43,7 @@ both gain information from these sources as well as disseminate it to them.
 - get help with technical or theoretical problems we encounter
 - contribute towards getting dynamic network models taught in school
 
-**technical practitioner**: 
+**Technical practitioner**: 
 
 - share tips and tricks amongst ourselves
 - share the "real life" experience of moving theory into practice
@@ -53,7 +53,7 @@ both gain information from these sources as well as disseminate it to them.
 - make our work, discussions, and issues as transparent as possible to serve as an
 example of "what you can do" and sometimes "what you shouldn't do" too ;-)
 
-**planner or manager**:
+**Planner or manager**:
 
 - share what these types of tools are capable of doing
 - learn about the types of questions that are relevant to planners and decision-makers
