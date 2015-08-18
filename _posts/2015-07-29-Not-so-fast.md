@@ -14,6 +14,10 @@ images:
       image: /img/posts/snake-viz-initial.png
       caption: "Diagnosis of Run-Time Source"
       source: "MTC, PSRC, & SFCTA"
+   image3:
+      image: /img/posts/cookie-c.jpg
+      caption: "Need more C"
+      source: "somegeekintn.com"
 ---
 
 ### The Good!
@@ -25,8 +29,9 @@ Voila, a working version of Fast-Trips in Python!
 
 ### The Bad...
 We had always expected Python to not be as fast as C++, but did not anticipate just how
-many orders of magnitude slower it would be.  Lisa has been using a test batch of 121,000
-riders in the San Francisco Muni network to test Fast-Trips, and showed us the graph below:
+many orders of magnitude slower it would be.  I have been using a test batch of 121,000
+riders in the San Francisco Muni network to test Fast-Trips, which I used to calculate 
+the run times in the image below.
 
 {% include image.html image=page.images.image1 %}
 
@@ -43,6 +48,8 @@ per day) we would need to get to a point where Fast-Trips was running much faste
 
 Undaunted, we plowed ahead with the search for 300X worth of performance improvements.
 
+<!--break-->
+
 ### The Ugly.
 
 Where to start?  We decided to profile our nemesis in order to target its weaknesses.
@@ -53,6 +60,8 @@ It turns out that it was hard to pinpoint where all the time was being taken up 
 the biggest source of time is a "catch-all" function `find_trip_based_hyperpath`. (Note to
  self, next time you write code make your functions more concise.)
 
+{% include image.html image=page.images.image2 %}
+
 ### The UltraSlimFast Plan
 So what to do?  We initiated a list of "quick fixes" and "exploratory strategies".
 
@@ -62,11 +71,11 @@ Quick Fixes:
 
 Exploratory Strategies:
 
- - **C is for....** Cython, which is supposed to magically translate python to C code. 
- C sounds fast.
+ - **C is for....** [Cython](http://cython.org/), which is supposed to magically translate Python to C code. 
+ And C is also for...well...C.
  - **Go forth and multiply** the number of processes that are happening at once. We have 
  a bunch of shortest path algorithms.  Shouldn't we be able to send those to a 
- zillion processors.
+ zillion processors?  We thought so.
  
 #### Pandas Fu
 
@@ -89,7 +98,7 @@ and the speed advantages that come along with it.
 
 **What is involved?**
 
- - A little renaming of files from `myprogram.py` to `myprogram.pyx`
+ - Renamed files from `myprogram.py` to `myprogram.pyx`
  - Added `#cython profile=True` to the beginning of `.pxy` files
  - Added Cython to setup.py:
  
@@ -102,22 +111,23 @@ and the speed advantages that come along with it.
 		ext\_modules = cythonize("fasttrips/*.pyx"),
 		)
 - Let c know your variables types (instead of relying on Python dynamic typing)
-	cdef:
-	
-		int start_taz_id, dir_factor
-		int stop_id, trip_id, seq
-		int label_iterations
-		object access_link
+
+		cdef:
+			int start_taz_id, dir_factor
+			int stop_id, trip_id, seq
+			int label_iterations
+			object access_link
 
 **Did it work?**
 
 [Early progress](https://github.com/MetropolitanTransportationCommission/fast-trips/commits/assign_cython)
- gave us a 2-4X speed improvement, without even touching the mega-jumbo method:
-`find_trip_based_hyperpath`
-The extent to which we will be able to get more out of Cython depends on how much we will 
-be able to convert operations to c-friendly integer operations.  There will be a clear balance
-between legibility (which is why we switched to Python to begin with) and what we can accomplish
-performance-wise with Cython.
+ gave us a 2-4X speed improvement, without touching the mega-jumbo method:
+`find_trip_based_hyperpath`.
+However, the extent to which we could get more out of Cython depends on how much is math, 
+versus how much are things like dictionary lookups.  Looking through our code, it turns
+out that most of our time is spent on the latter, which makes Cython only so helpful. We 
+would have to climb up another c-tree to get the performance improvements we really needed.
+
 
 #### Go forth and multiply
 
@@ -134,23 +144,46 @@ The seed setting was resolved by [using the passenger id as the seed](https://gi
 After testing both passing the open network to each worker or having each worker re-read
  the network, we found it was quicker to [just have each worker re-read the network](https://github.com/MetropolitanTransportationCommission/fast-trips/commit/8b1652ff9b216a0ae26bad4f10c393fb265c6247).
 
+#### C is also for C++
+
+{% include image.html image=page.images.image3 %}
+
+We haven't tossed in the towel for having a usable, high-performance transit passenger 
+simulator in Python - we just think we need some help from C++ behind the scenes to turbo 
+charge it.  I am [currently in the process](https://github.com/MetropolitanTransportationCommission/fast-trips/commits/c_extension)
+ of moving the slow stuff from `find_trip_based_hyperpath` to a very generic bunch of C++. 
+ The goal is to make the C++ flexible and generic enough that no modeler in a given year would 
+want or need to go into the C++ and recompile it; rather, they would be able to do everything 
+they wanted from within the Python side.
+ 
+In order to make it easier for the C++ to interact with Python, I wrapped up all the little
+pieces of information floating around in tiny objects [into a single Pandas Dataframe](https://github.com/MetropolitanTransportationCommission/fast-trips/commit/818be2f5e58c0288894676032dede76982d97c3c)
+ so that we could minimize the number of exchanges between the two. 
+
+**Did it work?**
+
+We are still in the process of writing and wrapping the C++, but will post back with results 
+when we have them.
+
 #### Other Speedups
 
  - [Switched from](https://github.com/MetropolitanTransportationCommission/fast-trips/commit/5c267e0d89c86f1dfd485d60413cdba732ab6aa8)
   a priority queue to a heapq which is not threadsafe, but is much faster.
  - Get rid of slow but pretty date-time operations and [replace with speedy but ugly integer math](https://github.com/MetropolitanTransportationCommission/fast-trips/commit/ef712ae455b43a1f3a6d91120f84d2677ef401a2)
  
+ 
 ### A few other fixes along the way
 
 - [Merged stochastic and deterministic assignment](https://github.com/MetropolitanTransportationCommission/fast-trips/commit/4b728aa1c70514d937003037f968a959c302ee8b)
 , since deterministic is really just a special case of stochastic.
 
+
 ### What's Next?
 
-We are clearly not yet at our 300x speedup just yet, but we have a few more things to explore.
-1. First we need to re-profile the code using SnakeViz to see what we have improved and what we have made worse.
-2. We haven't even cracked open `find_trip_based_hyperpath`, which should have a lot of potential
-for improvements, since it is the bulk of the runtime.
-3. We need to explore practically speaking how much an improvement we can get from multiprocessing.
-4. We need to critically examine how much of a speed/legibility tradeoff we are willing to make with Cython.
+1. First we need to re-profile the code using SnakeViz to see what we have improved and what we have made worse
+2. Critically examine the speed/legibility/usability tradeoff 
+3. Test test test
+4. Add new features such as Park and Rides, etc.
+5. Make it usable to front-facing users
+
 
