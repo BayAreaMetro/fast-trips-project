@@ -14,7 +14,7 @@ people:
 - name: Billy
   lastname: Charlton
   pic: billy.jpg
-  position: PSRC Manager and Software Guru
+  position: Software Guru
   affil: PSRC
   social:
     - title: twitter
@@ -34,6 +34,14 @@ people:
       url: https://www.linkedin.com/profile/view?id=39790039
     - title: github
       url: #
+
+- name: Mark
+  lastname: Simonson
+  pic: mark.jpg
+  position: PSRC Manager
+  affil: PSRC
+  social:
+
       
 - name: Diana
   lastname: Dorinson
