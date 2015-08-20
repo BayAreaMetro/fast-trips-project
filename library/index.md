@@ -13,10 +13,15 @@ title: Library
 
 *[Grant Application]({{ site.baseurl }}/library/C10_MTC_Application.pdf)*
 
+### Working Standards
+
+*[Transit Networks]({{ site.baseurl }}/library/T2-NetworkDesign-WorkingCopy-July2015.pdf)*  
+*[Travel Demand]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*
+
 ### Work in Progress
 
-*[Code Documentation](http://metropolitantransportationcommission.github.io/fast-trips/)*
-
+*[Code Documentation](http://metropolitantransportationcommission.github.io/fast-trips/)*  
+*[Software Development Progress and Remaining Workplan]({{ site.baseurl }}/library/T6-Fast-TripsDevelopmentPlan.pdf)*
 
 ### Related Work
 
