@@ -1,6 +1,7 @@
 ---
 title: "Standard Deviation"
 author: Elizabeth
+image: /img/posts/puzzle-pieces.jpg
 comments: true
 layout: post
 tags: [networks, demand, standard]
