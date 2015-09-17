@@ -9,7 +9,7 @@ title: Library
 
 ### Progress Reports and Application
 
-*[Winter 2015 Progress Report]({{ site.baseurl }}/library/2015-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
+*[Winter 2015 Progress Report]({{ site.baseurl }}/library/2015-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 *[Spring 2015 Progress Report]({{ site.baseurl }}/library/2015-07-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
 
 *[Grant Application]({{ site.baseurl }}/library/C10_MTC_Application.pdf)*
