@@ -1,6 +1,10 @@
-baseurl:  
+# For RSS
+name: Fast-Trips Tri-Agency Implementation
+description: The wild tales of three public agencies taking a research project from a university and using it in practice.
+url: http://127.0.0.1:4000/updates/
 
 # Site settings
+baseurl:  
 title: Moving Fast-Trips from Research to Practice...a three-agency experience
 
 timezone: America/Los_Angeles
