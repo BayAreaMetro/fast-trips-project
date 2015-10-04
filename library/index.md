@@ -19,7 +19,7 @@ title: Library
 *[Transit Networks - v0.1]({{ site.baseurl }}/library/T2-NetworkDesign-WorkingCopy-July2015V0.1.pdf)*  
 *[Transit Networks - v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*
 *[Travel Demand]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*
-NetworkDesign-StaticCopy-Sept2015V0.2.pdf
+
 ### Work in Progress
 
 *[Code Documentation](http://metropolitantransportationcommission.github.io/fast-trips/)*  
