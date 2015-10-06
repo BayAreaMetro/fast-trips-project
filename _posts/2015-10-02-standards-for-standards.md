@@ -40,10 +40,9 @@ set in stone", one of the guiding principles for changes is that they should be 
 
 <!--break-->
 
-One other way they *could* have made definitive versions of GTFS is by using a version-flag for 
-the [GTFS Feed Validator](https://github.com/google/transitfeed/wiki/FeedValidator) - which they 
-don't at this time (but I'll suggest it to them!).  They do, however, have a flag for the version 
-of the feed validator.
+Google does version control its [GTFS Feed Validator](https://github.com/google/transitfeed/wiki/FeedValidator). 
+However, the feed validator version does not have a relationship to the GTFS version - e.g., 
+you cannot ask it to validate a feed per the June 1st 2014 version of GTFS.
 
 In short, I didn't find a lot to be learned from the GTFS example and decided to jump to 
 some examples where the version really did matter: i.e. the standards underlying the foundation 
