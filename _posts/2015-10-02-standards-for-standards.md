@@ -154,7 +154,7 @@ should be numbered as:
              1 for first version (e.g., v0.1.0)
              Increment when you add backward-compatible functionality
     PATCH =  0 for each new MAJOR or MINOR release
-             Increment when you mack backward-compatible bug fixes
+             Increment when you make backward-compatible bug fixes
              
 We have already made a variety of changes to the standard we first started with.  
 
@@ -164,6 +164,6 @@ We have already made a variety of changes to the standard we first started with.
 
 ### More to come...
 
-We still need to see if this will work out in practice or be too cumbersome.  Un until this 
-point, we not explicitly sought the opinion of others and will be curious if we get any 
+We still need to see if this will work out in practice or be too cumbersome.  Up until this 
+point, we have not explicitly sought the opinion of others and will be curious if we get any 
 buy in or feedback on our proposals (we hope so!)  
