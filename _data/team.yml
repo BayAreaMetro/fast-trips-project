@@ -149,3 +149,12 @@ people:
       url: https://github.com/bhargavasana
     - title: linkedin
       url: https://www.linkedin.com/in/bsana
+
+- name: Jeff
+  lastname: Hood
+  pic: jeff.jpg
+  position: Consultant for Travel Behavior Task
+  affil: Hood Transportation
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/profile/view?id=ADEAAAJPR3gBrm1LeMK6i6rxllIgtHDTp5IxafY
