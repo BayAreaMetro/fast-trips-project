@@ -1,0 +1,17 @@
+<!-- Blog post list Section -->
+<div class="container">
+        <div class="row"><div class="col-md-4 text-left">
+            <div class="faint_border"></div>
+            <h5 class="section-heading">Recent Posts</h5>
+                {% for post in site.posts limit: 20 %}
+                	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+                {% endfor %}
+            <div class="faint_border"></div>
+        <!-- /col-md-8 text-left-->
+        </div>
+        <!-- /row -->
+    	</div>
+        
+<!-- /container -->
+</div>
+    

@@ -6,8 +6,15 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
-    {% include intro.html %}
-    {% include blog.html %}
+    <div class="row">
+    	<div class="col-md-8">
+    	{% include intro.html %}
+    	{% include blog.html %}
+    	</div>
+    	<div class="col-md-4">
+    	{% include post-list.html %}
+    	</div>
+    </div>
     {% include footer.html %}
     {% include js.html %}
 
