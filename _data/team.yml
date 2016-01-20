@@ -158,3 +158,25 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/profile/view?id=ADEAAAJPR3gBrm1LeMK6i6rxllIgtHDTp5IxafY
+      
+- name: Alireza
+  lastname: Khani
+  pic: alireza.jpg
+  position: Original Fast-Trips developer and project collaborator
+  affil: University of Minnesota
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/alireza-khani-97123320
+    - title: github
+      url: https://github.com/akhani
+      
+- name: Angela
+  lastname: Yang
+  pic: angela.jpg
+  position: Dwell time estimation
+  affil: PSRC
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/qqyang
+    - title: github
+      url: https://github.com/AngelaQYang/
