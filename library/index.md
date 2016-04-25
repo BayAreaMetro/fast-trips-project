@@ -23,19 +23,24 @@ title: Library
 *[Transit Network Data Standard - Official Source](http://github.com/osplanning-data-standards/GTFS-PLUS)*  
 *[Transit Networks Data Standard Memo – v0.1]({{ site.baseurl }}/library/T2-NetworkDesign-WorkingCopy-July2015V0.1.pdf)*  
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
+*[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
+*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*
+*[SF-CHAMP Networks, v1.4](https://mtcdrive.box.com/s/q4nc1n9u28dxc37nozixmtnudwrucs74)*
 
 ##### Demand
 
 *[Travel Demand Data Standard - Official Source](https://github.com/osplanning-data-standards/dyno-demand)*  
 *[Travel Demand Data Standard Memo]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*
+*[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*
+*[Demand Translation – SoundCast](http://github.com/AngelaQYang/fast-trip_transit_demand_input)*
+*[SF-CHAMP Demand, v0.2](https://mtcdrive.box.com/s/ukd40vyk6r017g1cnw0z7a2hv9jdlmlc)*
+*[Soundcast Demand, v0.1](https://mtcdrive.box.com/s/bbcbmj91od0ys159pa4f7gh6lkuv8ytb)*
 
 ### Work in Progress
 
 *[Code Documentation](http://metropolitantransportationcommission.github.io/fast-trips/)*  
 *[Software Development Progress and Remaining Workplan]({{ site.baseurl }}/library/T6-Fast-TripsDevelopmentPlan.pdf)*  
-*[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
-*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
-*[Dwell Time Estimation – Puget Sound](http://github.com/AngelaQYang/DwellTimeFastTrips)*  
+*[Dwell Time Estimation – Puget Sound](https://github.com/psrc/fast-trips_dwell_time_model)*  
 
 ### Related Work
 
