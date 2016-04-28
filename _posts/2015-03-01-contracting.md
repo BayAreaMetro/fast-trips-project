@@ -54,7 +54,7 @@ have a single, compelling voice.
 
 One innovative aspect of the application was FHWA's requirement for either a state DOT or 
 MPO agency-lead as well as an explicit, executive-level commitment from the lead agency. 
- This approach should facilitate a more efficint transfer of research into practice for two 
+ This approach should facilitate a more efficient transfer of research into practice for two 
 key reasons.  First, agency-led research should more directly relate the need to the product.
   FHWA is not procuring a service or product that they *think* an MPO wants; the MPO is doing 
   so directly.  This should lead to us solving a problem, rather than FHWA offering a 
