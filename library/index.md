@@ -34,7 +34,7 @@ title: Library
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
 *[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
 *[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*
-*[SF-CHAMP Networks, v1.4](https://mtcdrive.box.com/s/q4nc1n9u28dxc37nozixmtnudwrucs74)*
+*[SF-CHAMP Networks, v1.9](https://mtcdrive.box.com/s/5aizzddri3rtp63eic4quq8sdfkyknj6)*
 
 ##### Demand
 
@@ -42,7 +42,7 @@ title: Library
 *[Travel Demand Data Standard Memo]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*
 *[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*
 *[Demand Translation – SoundCast](http://github.com/psrc/fast-trips_demand_converter)*
-*[SF-CHAMP Demand, v0.2](https://mtcdrive.box.com/s/ukd40vyk6r017g1cnw0z7a2hv9jdlmlc)*
+*[SF-CHAMP Demand, v0.3 2016-08-17](https://mtcdrive.box.com/s/2eg460coqwq4jlczsbaxt0yh4crzkixl)*
 *[Soundcast Demand, v0.1](https://mtcdrive.box.com/s/bbcbmj91od0ys159pa4f7gh6lkuv8ytb)*
 
 ### Work in Progress
