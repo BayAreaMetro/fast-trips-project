@@ -39,10 +39,10 @@ title: Library
 ##### Demand
 
 *[Travel Demand Data Standard - Official Source](https://github.com/osplanning-data-standards/dyno-demand)*  
-*[Travel Demand Data Standard Memo]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*
-*[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*
-*[Demand Translation – SoundCast](http://github.com/psrc/fast-trips_demand_converter)*
-*[SF-CHAMP Demand, v0.3 2016-08-17](https://mtcdrive.box.com/s/2eg460coqwq4jlczsbaxt0yh4crzkixl)*
+*[Travel Demand Data Standard Memo]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*  
+*[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*  
+*[Demand Translation – SoundCast](http://github.com/psrc/fast-trips_demand_converter)*  
+*[SF-CHAMP Demand, v0.3](https://mtcdrive.box.com/s/2eg460coqwq4jlczsbaxt0yh4crzkixl)*  
 *[Soundcast Demand, v0.1](https://mtcdrive.box.com/s/bbcbmj91od0ys159pa4f7gh6lkuv8ytb)*
 
 ### Work in Progress
