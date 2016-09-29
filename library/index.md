@@ -33,7 +33,7 @@ title: Library
 *[Transit Networks Data Standard Memo – v0.1]({{ site.baseurl }}/library/T2-NetworkDesign-WorkingCopy-July2015V0.1.pdf)*  
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
 *[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
-*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*
+*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
 *[SF-CHAMP Networks, v1.9](https://mtcdrive.box.com/s/5aizzddri3rtp63eic4quq8sdfkyknj6)*
 
 ##### Demand
