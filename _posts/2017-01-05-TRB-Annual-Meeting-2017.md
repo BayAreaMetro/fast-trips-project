@@ -10,7 +10,7 @@ tags: [communication]
 
 Several team members will be at the Transportation Research Board Annual Meeting presenting work completed as a part of this project.  We hope to see you there!
 
-## Passenger Route Choice Challenges
+### Passenger Route Choice Challenges
 
 Lisa Zorn will be presenting [her paper]({{ site.baseurl }}/library/TRB17-Issues.pdf) titled *Dynamic Passenger Assignment Challenges* and she and Elizabeth will be manning the companion poster and would love to chat with people about any insights they might have towards solutions.
   
