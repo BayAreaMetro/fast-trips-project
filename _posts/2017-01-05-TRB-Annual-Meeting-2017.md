@@ -17,7 +17,7 @@ Lisa Zorn will be presenting [her paper]({{ site.baseurl }}/library/TRB17-Issues
   * **Presentation** Tuesday January 10th, 2017 from 1:30 to 3:15 Convention Center 156  
   * **Poster** Wednesday January 11th, 2017 from 10:15 - 12:00 in Convention Center Hall E  
   
-### Some Definitions
+### Making Open Data Useful
 
 Elizabeth Sall will be manning a poster on an important, but "meta", topic on open data standards management.  [Her paper]({{ site.baseurl }}/library/TRB17-OpenData.pdf) is titled *Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management*.
 
