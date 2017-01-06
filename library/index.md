@@ -51,7 +51,9 @@ title: Library
 *[Software Development Progress and Remaining Workplan]({{ site.baseurl }}/library/T6-Fast-TripsDevelopmentPlan.pdf)*  
 *[Dwell Time Estimation – Puget Sound](https://github.com/psrc/fast-trips_dwell_time_model)*  
 
-### Related Work
+### Papers
+**[Dynamic Passenger Assignment Issues]({{ site.baseurl }}/library/TRB17-Issues.pdf)*
+**[Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management.]({{ site.baseurl }}/library/TRB17-OpenData.pdf)*
 
 
 ### References
