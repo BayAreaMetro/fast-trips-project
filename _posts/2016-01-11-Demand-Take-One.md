@@ -17,6 +17,8 @@ currently does two things: reformats the data, and assigns disaggregated preferr
 and arrival times. In the future, it may combine data from other sources and perform minimal 
 variable synthesis. 
 
+<!--break-->
+
 ### Time blocks to time of day
 In order to distribute the trips to discrete times from the five aggregate time periods 
 that [SF-CHAMP](http://www.sfcta.org/modeling) uses [ AM Peak, Midday, PM Peak, Evening, 

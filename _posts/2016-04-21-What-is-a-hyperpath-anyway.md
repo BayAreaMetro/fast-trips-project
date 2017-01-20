@@ -32,6 +32,8 @@ Let’s start with the literature.
 
 I still find this a bit confusing, so let’s start with a visualization (based on Figure 5 from Khani et al 2015):
 
+<!--break-->
+
 {% include image.html image=page.images.image1 %}
 
 ### Some Definitions

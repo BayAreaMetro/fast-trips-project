@@ -15,6 +15,8 @@ each agency already produces and add information to them to create a schedule-ba
 as required by our GTFS-PLUS network specification 
 [ and [discussed in this blog post](http://fast-trips.mtc.ca.gov/2015/08/21/standard-deviation/) ].  
 
+<!--break-->
+
 ## Network Conversion Scripts
 
 The team has created two network conversion scripts: one that converts PSRC’s SoundCast’s 
