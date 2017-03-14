@@ -173,10 +173,21 @@ people:
 - name: Angela
   lastname: Yang
   pic: angela.jpg
-  position: Dwell time estimation
+  position: Dwell time estimation; Fast Trips Soundcast Integration
   affil: PSRC
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/qqyang
+    - title: github
+      url: https://github.com/AngelaQYang/
+      
+- name: Jayen
+  lastname: Chang
+  pic: Jayne.jpg
+  position: Utility Player
+  affil: SFCTA
+  social:
+    - title: linkedin
+      url: http://www.linkedin.com/in/xiao-yun-jayne-chang-21133760/
     - title: github
       url: https://github.com/AngelaQYang/
