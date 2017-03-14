@@ -1,29 +1,5 @@
 # Team names, titles and social links
 people:
-- name: Dave
-  lastname: Ory
-  pic: dave.png
-  position: Principal Investigator and Chief Contract Wrangler
-  affil: MTC
-  social:
-    - title: linkedin
-      url: http://www.linkedin.com/profile/view?id=344818185
-    - title: github
-      url: http://github.com/DavidOry
-      
-- name: Billy
-  lastname: Charlton
-  pic: billy.jpg
-  position: Software Guru
-  affil: PSRC
-  social:
-    - title: twitter
-      url: http://twitter.com/billyinseattle
-    - title: google-plus
-      url: http://plus.google.com/+billycharlton
-    - title: github
-      url: http://github.com/billyc
-
 - name: Joe
   lastname: Castiglione
   pic: joe.jpg
@@ -41,8 +17,7 @@ people:
   position: PSRC Manager
   affil: PSRC
   social:
-
-      
+  
 - name: Diana
   lastname: Dorinson
   pic: diana.jpg
@@ -70,7 +45,7 @@ people:
 - name: Lisa
   lastname: Zorn
   pic: lisa.jpg
-  position: Software Guru
+  position: Software Guru and Principal Investigator
   affil: MTC
   social:
     - title: twitter
@@ -142,7 +117,7 @@ people:
 - name: Bhargava
   lastname: Sana
   pic: bhargava.jpg
-  position: Task Lead for Travel Demand
+  position: Task Lead for Travel Demand and All Around Helper
   affil: SFCTA
   social:
     - title: github
@@ -184,8 +159,32 @@ people:
 - name: Jayne
   lastname: Chang
   pic: jayne.jpg
-  position: Utility Player
+  position: Utility Player for Calibration
   affil: SFCTA
   social:
     - title: linkedin
       url: http://www.linkedin.com/in/xiao-yun-jayne-chang-21133760/
+      
+- name: Dave
+  lastname: Ory
+  pic: dave.png
+  position: Former Principal Investigator and Chief Contract Wrangler
+  affil: MTC Alumnus
+  social:
+    - title: linkedin
+      url: http://www.linkedin.com/profile/view?id=344818185
+    - title: github
+      url: http://github.com/DavidOry
+      
+- name: Billy
+  lastname: Charlton
+  pic: billy.jpg
+  position: Former Software Guru 
+  affil: PSRC Alumnus
+  social:
+    - title: twitter
+      url: http://twitter.com/billyinseattle
+    - title: google-plus
+      url: http://plus.google.com/+billycharlton
+    - title: github
+      url: http://github.com/billyc
