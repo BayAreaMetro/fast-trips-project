@@ -21,27 +21,27 @@ In order to reasonably satisfy our targeted performance of Fast-Trips across the
 
 ### OBS Run 1
 
-*Run on:*   June 30, 2016
-*Run by:*   Lisa at MTC
+*Run on:*   June 30, 2016  
+*Run by:*   Lisa at MTC  
 
 ##### Summary of Changes  
 
 ##### Inputs
 
 **Network:**   
-**Demand:**  OBS v0.1
-**Configs:**  [Pathweights](https://app.box.com/files/0/f/8380345213/1/f_72033980657)
+**Demand:**  OBS v0.1  
+**Configs:**  [Pathweights](https://app.box.com/files/0/f/8380345213/1/f_72033980657)  
 
 ##### Results
 
 *[Outputs](https://app.box.com/files/0/f/8648895105)*   
-**[Vehicle Loads](https://public.tableau.com/profile/lmz8249#!/vizhome/FastTrips-VehicleLoads-OBS/RouteDrilldown)** 
-**[Observed vs. Modeled Paths]()** 
-**[Validation Summary Dashboard]()** 
+**[Vehicle Loads](https://public.tableau.com/profile/lmz8249#!/vizhome/FastTrips-VehicleLoads-OBS/RouteDrilldown)**   
+**[Observed vs. Modeled Paths]()**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
-No drive access or egress for now.
+No drive access or egress for now.  
 Memory issues
 
 ##### Supporting Analysis
@@ -61,13 +61,13 @@ Addressed memory issues.
 
 ##### Inputs
 
-**Network:**  v1.4
-**Demand:**  v1.0
+**Network:**  v1.4  
+**Demand:**  v1.0  
 **Configs:**  [Pathweights](https://app.box.com/files/0/f/8380345213/1/f_72033980657) 
 
 ##### Results
 
-*[Outputs](https://app.box.com/files/0/f/10959543824/OBS_fasttrips_demand_v1.0_stochastic_iter2_cap)*     
+*[Outputs](https://app.box.com/files/0/f/10959543824/OBS_fasttrips_demand_v1.0_stochastic_iter2_cap)*      
 
 ##### Known Issues
 
@@ -97,14 +97,14 @@ Person IDs 35, 377, 517
 ##### Inputs
 
 **Network:**   
-**Demand:**  v1.1
+**Demand:**  v1.1  
 **Configs:**  .. 
 
 ##### Results
 
 *[Outputs](https://app.box.com/files/0/f/11611885837)*     
-**[Observed vs. Modeled Paths]()** 
-**[Validation Summary Dashboard]()** 
+**[Observed vs. Modeled Paths]()**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
@@ -132,8 +132,8 @@ Get memory overflow with too many trips.
 ##### Results
 
 *[Outputs](https://app.box.com/files/0/f/8935480610)*     
-**[Observed vs. Modeled Paths]()** 
-**[Validation Summary Dashboard]()** 
+**[Observed vs. Modeled Paths]()**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
@@ -146,21 +146,21 @@ No BART Boards.
 ### CHTS Run 0.1
 
 *Run on:*   October 7, 2016   
-*Run by:*   Lisa at MTC  
+*Run by:*   Lisa at MTC   
 
 ##### Summary of Changes  
 
 ##### Inputs
 
 **Network:**   v1.9  
-**Demand:**    CHTS v0.2 
+**Demand:**    CHTS v0.2   
 **Configs:**  .. 
 
 ##### Results
 
-*[Outputs](https://app.box.com/files/0/f/11612101663)*     
-**[Observed vs. Modeled Paths]()** 
-**[Validation Summary Dashboard]()** 
+*[Outputs](https://app.box.com/files/0/f/11612101663)*       
+**[Observed vs. Modeled Paths]()**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
@@ -170,22 +170,22 @@ No BART Boards.
 
 ### CHTS Run 1
 
-*Run on:*   December 16th, 2016
+*Run on:*   December 16th, 2016  
 *Run by:*   Lisa at MTC  
 
 ##### Summary of Changes  
 
 ##### Inputs
 
-**Network:**    
-**Demand:**   CHTS v0.3
-**Configs:**  .. 
+**Network:**     
+**Demand:**   CHTS v0.3  
+**Configs:**  ..   
 
 ##### Results
 
-*[Outputs](https://app.box.com/files/0/f/14572736917)*     
-**[Observed vs. Modeled Paths]()** 
-**[Validation Summary Dashboard]()** 
+*[Outputs](https://app.box.com/files/0/f/14572736917)*      
+**[Observed vs. Modeled Paths]()**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
@@ -195,22 +195,22 @@ No BART Boards.
 
 ### CHTS Run 2
 
-*Run on:*   Feb 6, 2017 
-*Run by:*   Bhargava at SFCTA 
+*Run on:*   Feb 6, 2017   
+*Run by:*   Bhargava at SFCTA   
 
 ##### Summary of Changes  
 
 ##### Inputs
 
-**Network:**  SFCTA v1.10   
-**Demand:**  v0.4  
+**Network:**  SFCTA v1.10    
+**Demand:**  v0.4   
 **Configs:**  .. 
-
+ 
 ##### Results
 
 *[Outputs]()*     
-**[Observed vs. Modeled Paths]()** 
-**[Validation Summary Dashboard]()** 
+**[Observed vs. Modeled Paths]()**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
@@ -220,20 +220,20 @@ No BART Boards.
 
 ### CHTS Run 3
 
-*Run on:*   March 21, 2017 
-*Run by:*   Bhargava at SFCTA 
+*Run on:*   March 21, 2017   
+*Run by:*   Bhargava at SFCTA   
 
 ##### Inputs
 
 **Network:** v1.10  
-**Demand:**  CHTS v0.4  
-**Configs:**  .. 
+**Demand:**  CHTS v0.4    
+**Configs:**  ..   
 
 ##### Results
 
-*[Outputs](https://app.box.com/files/0/f/17999192280/CHTS_fasttrips_demand_v0.4_stochastic_iter1_nocap_networkv1.10)*    
-**[Observed vs. Modeled Paths](https://public.tableau.com/profile/lmz8249#!/vizhome/ft_vs_obs_mapssfctanetworkv1_11_farechtsv0_4run20170322/ObsvsModeledDashboard)** 
-**[Validation Summary Dashboard]()** 
+*[Outputs](https://app.box.com/files/0/f/17999192280/CHTS_fasttrips_demand_v0.4_stochastic_iter1_nocap_networkv1.10)*     
+**[Observed vs. Modeled Paths](https://public.tableau.com/profile/lmz8249#!/vizhome/ft_vs_obs_mapssfctanetworkv1_11_farechtsv0_4run20170322/ObsvsModeledDashboard)**   
+**[Validation Summary Dashboard]()**   
 
 ##### Known Issues
 
@@ -253,28 +253,25 @@ __Issue__
 
 BART paths for the following should be found; access/egress links appear to exist.
 
-Peninsula -> SF
+Peninsula -> SF  
 person_id: `1379781_2` person_trip_id: 6
 
-East Bay <-> SF
-`1498957_1` person_trip_id: 14
-`3006352_2` person_trip_id: 7
-`3007326_2` person_trip_id: 5
+East Bay <-> SF  
+`1498957_1` person_trip_id: 14  
+`3006352_2` person_trip_id: 7  
+`3007326_2` person_trip_id: 5  
 
 
 `7162320_2`  
 _Issue_: Path that uses bart - but not sure how.  CHTS must have coded a phantom BART trip or didn't identify an intermediate stop.
 
-`1407624_2` 
-
+`1407624_2`   
 _Issue_: High probability paths have a transfer to the 19 Polk rather than just getting on the 47 or 49.  The 47 and 49 are found, but given <1% probabilities.  This is b/c the 19 has an egress distance of 0.06  whereas 47/49 have egress distance of 0.21. This is a cost difference of ~13 whereas the xfer only costs 5
 
-`1474991_2`	
-
+`1474991_2`	  
 _Issue_: Tradeoff between egress distance and transfers.  Transfers are too cheap.
 
 `3006352_2` person_trip_id: 7    
-
 _Issue_: Tradeoff between egress distance and transfers.  Transfers are too cheap.
 
 _Issue_: Suspicious Caltrain-to-Caltrain transfers  
@@ -286,45 +283,45 @@ _Issue_: Suspicious Caltrain-to-Caltrain transfers
 
 ### CHTS Run 4
 
-Run on 2017-03-22
-Run by Bhargava Sana at SFCTA
+Run on 2017-03-22  
+Run by Bhargava Sana at SFCTA  
 
 ##### Summary of Changes  
 
-- Same demand/networks as CHTS Run 3;
-- 50% more penalty on xfers
+- Same demand/networks as CHTS Run 3;  
+- 50% more penalty on xfers  
 
 ##### Inputs
 
 **Network:** v1.11  
-[Access Egress Link Viewer](https://public.tableau.com/profile/lmz8249#!/vizhome/sfctanetwork_draft1_11_fareAccessandEgress/Dashboard1)** 
-[Network Explorer](https://public.tableau.com/profile/lmz8249#!/vizhome/sfctanetwork_draft1_11_fareRoutesandTrips/TransitLinesMap)** 
+[Access Egress Link Viewer](https://public.tableau.com/profile/lmz8249#!/vizhome/sfctanetwork_draft1_11_fareAccessandEgress/Dashboard1)**   
+[Network  Explorer](https://public.tableau.com/profile/lmz8249#!/vizhome/sfctanetwork_draft1_11_fareRoutesandTrips/TransitLinesMap)**   
 
 
-**Demand:**  CHTS v0.4  
-**Parameters:**  ..   
-**Configs:**  .. 
+**Demand:**  CHTS v0.4   
+**Parameters:**  ..    
+**Configs:**  ..  
 
 ##### Results
 
-[Observed vs. Modeled Paths](https://public.tableau.com/profile/lmz8249#!/vizhome/ft_vs_obs_mapssfctanetworkv1_11_farechtsv0_4run20170322/ObsvsModeledDashboard)  
+[Observed vs. Modeled Paths](https://public.tableau.com/profile/lmz8249#!/vizhome/ft_vs_obs_mapssfctanetworkv1_11_farechtsv0_4run20170322/ObsvsModeledDashboard)    
 
 [Validation Summary Dashboard]()
 
-[Box Location](https://app.box.com/files/0/f/22642907012/CHTS_run4)
+[Box Location](https://app.box.com/files/0/f/22642907012/CHTS_run4)  
 
 ##### Known Issues
 
 Network:  
 
-  - No KNR access links  
-  - No PNR station capacities  
-  - Missing access and xfer links  
+  - No KNR access links   
+  - No PNR station capacities   
+  - Missing access and xfer links   
 
 Parameters:  
 
-  - Transfers still to easy relative to access/egress distance  
-  - Access and Egress parameters are not even; egress far too onerous.
+  - Transfers still to easy relative to access/egress distance   
+  - Access and Egress parameters are not even; egress far too onerous. 
 
 Other:
 
@@ -356,7 +353,6 @@ _Previous Issue_: Tradeoff between egress distance and transfers.  Transfers are
 
 _Run 4_: Still there
 
-
 `1710214_1` 
 Run 3: FT doesn't find anything N of Geary, including the observed route downtown via the 1AX
 Run 4: same issue
@@ -364,7 +360,6 @@ Run 4: same issue
 ## Tier II: Regional Assignment and Computation Feasibility
 
 The second tier of calibration will utilize the full regional demand in order to assess the two remaining performance targets: the assignment as a whole as well as the computational efficiency.  
-
 
 ## Tier III: Regional Assignment with Feedback
 
