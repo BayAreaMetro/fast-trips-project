@@ -1,7 +1,7 @@
 ---
 title: "AppCon: Learn Fast-Trips Basics, Visualization Tools, and Recommendations for Future Surveys"
 author: Elizabeth
-image: /img/posts/R-line.jpeg
+image: /img/posts/R-line.jpg
 comments: true---
 layout: post
 tags: [meta]
