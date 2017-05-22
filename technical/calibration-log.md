@@ -306,7 +306,7 @@ Run by Bhargava Sana at SFCTA
 
 [Observed vs. Modeled Paths](https://public.tableau.com/profile/lmz8249#!/vizhome/ft_vs_obs_mapssfctanetworkv1_11_farechtsv0_4run20170322/ObsvsModeledDashboard)    
 
-[Validation Summary Dashboard]()
+[Validation Summary Dashboard](https://public.tableau.com/profile/bhargava.sana#!/vizhome/testCHTS_Validation_v2-Run4/Fast-TripsCHTSValidation)
 
 [Box Location](https://app.box.com/files/0/f/22642907012/CHTS_run4)  
 
@@ -329,7 +329,7 @@ Other:
 
 ##### Supporting Analysis 
 
-[Path Traces](https://www.backcountry.com/Store/catalog/search.jsp?q=mammut&s=u)
+[Path Traces]()
 
 ##### Bellwether Paths
 
