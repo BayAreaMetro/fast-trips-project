@@ -14,11 +14,19 @@ title: Library
 *[Fall 2015 Progress Report]({{ site.baseurl }}/library/2015-10-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 *[Winter 2016 Progress Report]({{ site.baseurl }}/library/2016-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 *[Spring 2016 Progress Report](https://mtcdrive.box.com/s/jrkvqwwl6huwzyot8bb5et2w71j9tf2z)*
+*[Summer 2016 Progress Report]({{ site.baseurl }}/library/2016_07_MTC_SHRP2_Quarterly_Progress_Report.pdf)*
+*[Winter 2017 Progress Report]({{ site.baseurl }}/library/2017-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
+*[Spring 2017 Progress Report]({{ site.baseurl }}/library/2017-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
+
 
 *[Grant Application]({{ site.baseurl }}/library/C10_MTC_Application.pdf)*
 
 ### Presentations
 
+*[May 2017 TRB Planning Applications Conference Visualization Workshop](https://mtcdrive.box.com/s/qj2lec4r1elhe5m5gwa9jfs6yirhsqk9)*  
+*[May 2017 TRB Planning Applications Conference Tutorial](http://github.com/fast-trips)*
+*[May 2017 TRB Planning Applications Conference Presentation on Getting Info from Surveys](https://mtcdrive.box.com/s/7svx3n464bhpfa74wxhbtix9nm1f3q8x)*  
+*[January 2017 TRB Annual Meeting Presentation on Dynamic Passenger Assignment Challenges](https://mtcdrive.box.com/s/gb0ev3ylkxwiacwwy4xyh1c6ca1hmsat)*  
 *[April 2016 Peer Exchange Presentation on Technical Issues](https://mtcdrive.box.com/s/lejnqa2wzfq5yxr6z8n7w5ktk7zkfr90)*  
 *[April 2016 Peer Exchange Presentation on Implementation Goals](https://mtcdrive.box.com/s/kskesxi43suys28fi9e7q455t8vw1gpi)*  
 *[TRB ITM 2016 Presentation on Technology Transfer Strategy](https://mtcdrive.box.com/s/qkjgms88bq5qw49m2xlcr27ow0plxdhg)*  
@@ -34,7 +42,8 @@ title: Library
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
 *[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
 *[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
-*[SF-CHAMP Networks, v1.9](https://mtcdrive.box.com/s/5aizzddri3rtp63eic4quq8sdfkyknj6)*
+*[SF-CHAMP Networks, v1.13](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*
+*[PSRC Networks, v1.1](https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp)*
 
 ##### Demand
 

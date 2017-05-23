@@ -16,11 +16,12 @@ Come learn some Fast-Trips basics.  Please follow directions to download and sof
 #### Visualization Workshop
 **Sunday May 14th; 3:00PM**  
 See how we are using various tools to explore the Fast-Trips calibration.  
+[*Presentation*](https://mtcdrive.box.com/s/qj2lec4r1elhe5m5gwa9jfs6yirhsqk9)
 
 #### Using Surveys for Dynamic Transit Calibration  
 **Tuesday May 16th; 3:30PM**  
 Learn about how we are using surveys [ and what we wish we had access to ] in our Fast-Trips calibration process.
-
+[*Presentation*](https://mtcdrive.box.com/s/7svx3n464bhpfa74wxhbtix9nm1f3q8x)
 
 
 
