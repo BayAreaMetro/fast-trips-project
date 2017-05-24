@@ -44,7 +44,7 @@ title: Library
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
 *[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
 *[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
-*[SF-CHAMP Networks, v1.13](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*
+*[SF-CHAMP Networks, v1.13](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*  
 *[PSRC Networks, v1.1](https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp)*
 
 ##### Demand
@@ -56,6 +56,10 @@ title: Library
 *[SF-CHAMP Demand, v0.3](https://mtcdrive.box.com/s/2eg460coqwq4jlczsbaxt0yh4crzkixl)*  
 *[Soundcast Demand, v1.1](https://mtcdrive.box.com/s/urb1hipzqs4s75g8mnzov665mmrlc7pv)*
 
+##### Paths
+
+*[Dyno-Path Data Standard – Official Source ](https://github.com/osplanning-data-standards/dyno-path)*   
+
 ### Work in Progress
 
 *[Code Documentation](http://metropolitantransportationcommission.github.io/fast-trips/)*  
@@ -63,8 +67,8 @@ title: Library
 *[Dwell Time Estimation – Puget Sound](https://github.com/psrc/fast-trips_dwell_time_model)*  
 
 ### Papers
-**[Dynamic Passenger Assignment Issues]({{ site.baseurl }}/library/TRB17-Issues.pdf)*
-**[Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management.]({{ site.baseurl }}/library/TRB17-OpenData.pdf)*
+*[Dynamic Passenger Assignment Issues]({{ site.baseurl }}/library/TRB17-Issues.pdf)*  
+*[Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management.]({{ site.baseurl }}/library/TRB17-OpenData.pdf)*  
 
 
 ### References
