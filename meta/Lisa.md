@@ -4,4 +4,4 @@ teammate: Lisa
 ---
 
 
-Lisa is the founder of LMZ LLC 
+Lisa is a Senior Transportation Planner at the Metropolitan Transportation Commission.
