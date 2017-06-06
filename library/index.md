@@ -76,11 +76,8 @@ title: Library
 
 *[DTA Primer](http://onlinepubs.trb.org/onlinepubs/circulars/ec153.pdf)*
 
-Note: if you want to see this rendered, you can use StackEdit.io
+
 ### Technology Readiness Assessment Materials
- 
- 
-*Other Related Materials*  
  
 ##### Overview: What we hope to accomplish and how
  
@@ -92,7 +89,6 @@ Note: if you want to see this rendered, you can use StackEdit.io
   * [Fast-Trips Software on GitHub; Readme](https://github.com/metropolitantransportationcommission/fast-trips/tree/develop)  
   * [Dynamic Passenger Assignment Issues]({{ site.baseurl }}/library/TRB17-Issues.pdf)   
   * [Development of an Application-Ready Transit Route Choice Model memo](http://fast-trips.mtc.ca.gov/library/DevelopinganApplication-ReadyRouteChoiceModel.pdf)  
- 
   * [Iteration and Convergence DRAFT memo](https://mtcdrive.box.com/s/basmtsyavafn8iibg3sxjnms83g7dj42)  
  
 *Other Related Materials*  
@@ -129,6 +125,7 @@ Goal: create couplings with Fast-Trips in order to use it within existing ABMs w
  * [CHAMP Demand Conversion Process](http://github.com/sfcta/fast-trips_demand_converter)
  
 **Couplings to ABM**    
+
  * [Dyno-Path Data Standard – Official Source ](https://github.com/osplanning-data-standards/dyno-path)   
  * [Integration Options]  FORTHCOMING  
  
