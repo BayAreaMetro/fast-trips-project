@@ -13,11 +13,11 @@ title: Library
 *[Spring 2015 Progress Report]({{ site.baseurl }}/library/2015-07-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 *[Fall 2015 Progress Report]({{ site.baseurl }}/library/2015-10-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 *[Winter 2016 Progress Report]({{ site.baseurl }}/library/2016-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
-*[Spring 2016 Progress Report](https://mtcdrive.box.com/s/jrkvqwwl6huwzyot8bb5et2w71j9tf2z)*
-*[Summer 2016 Progress Report]({{ site.baseurl }}/library/2016_07_MTC_SHRP2_Quarterly_Progress_Report.pdf)*
-*[Fall 2016 Progress Report]({{ site.baseurl }}/library/2016_10_MTC_SHRP2_Quarterly_Report.pdf)*
-*[Winter 2017 Progress Report]({{ site.baseurl }}/library/2017-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
-*[Spring 2017 Progress Report]({{ site.baseurl }}/library/2017-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*
+*[Spring 2016 Progress Report](https://mtcdrive.box.com/s/jrkvqwwl6huwzyot8bb5et2w71j9tf2z)*  
+*[Summer 2016 Progress Report]({{ site.baseurl }}/library/2016_07_MTC_SHRP2_Quarterly_Progress_Report.pdf)*  
+*[Fall 2016 Progress Report]({{ site.baseurl }}/library/2016_10_MTC_SHRP2_Quarterly_Report.pdf)*  
+*[Winter 2017 Progress Report]({{ site.baseurl }}/library/2017-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
+*[Spring 2017 Progress Report]({{ site.baseurl }}/library/2017-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 
 
 
@@ -26,7 +26,7 @@ title: Library
 ### Presentations
 
 *[May 2017 TRB Planning Applications Conference Visualization Workshop](https://mtcdrive.box.com/s/qj2lec4r1elhe5m5gwa9jfs6yirhsqk9)*  
-*[May 2017 TRB Planning Applications Conference Tutorial](http://github.com/fast-trips)*
+*[May 2017 TRB Planning Applications Conference Tutorial](http://github.com/fast-trips)*  
 *[May 2017 TRB Planning Applications Conference Presentation on Getting Info from Surveys](https://mtcdrive.box.com/s/7svx3n464bhpfa74wxhbtix9nm1f3q8x)*  
 *[January 2017 TRB Annual Meeting Presentation on Dynamic Passenger Assignment Challenges](https://mtcdrive.box.com/s/gb0ev3ylkxwiacwwy4xyh1c6ca1hmsat)*  
 *[April 2016 Peer Exchange Presentation on Technical Issues](https://mtcdrive.box.com/s/lejnqa2wzfq5yxr6z8n7w5ktk7zkfr90)*  
