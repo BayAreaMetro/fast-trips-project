@@ -357,6 +357,72 @@ _Run 4_: Still there
 Run 3: FT doesn't find anything N of Geary, including the observed route downtown via the 1AX
 Run 4: same issue
 
+
+### CHTS Run 4
+
+Run on 2017-03-22  
+Run by Bhargava Sana at SFCTA  
+
+##### Summary of Changes  
+
+- Same demand/networks as CHTS Run 3;  
+- 50% more penalty on xfers  
+
+##### Inputs
+
+**Network:** v1.11  
+[Access Egress Link Viewer](https://public.tableau.com/profile/lmz8249#!/vizhome/sfctanetwork_draft1_11_fareAccessandEgress/Dashboard1)**   
+[Network  Explorer](https://public.tableau.com/profile/lmz8249#!/vizhome/sfctanetwork_draft1_11_fareRoutesandTrips/TransitLinesMap)**   
+
+
+**Demand:**  CHTS v0.4   
+**Parameters:**  ..    
+**Configs:**  ..  
+
+##### Results
+
+[Observed vs. Modeled Paths](https://public.tableau.com/profile/lmz8249#!/vizhome/ft_vs_obs_mapssfctanetworkv1_11_farechtsv0_4run20170322/ObsvsModeledDashboard)    
+
+[Validation Summary Dashboard](https://public.tableau.com/profile/bhargava.sana#!/vizhome/testCHTS_Validation_v2-Run4/Fast-TripsCHTSValidation)
+
+[Box Location](https://app.box.com/files/0/f/27809765106/CHTS_run5.0)  
+
+##### Known Issues
+
+Network:  
+
+  -  
+
+Parameters:  
+
+  - No overlap calculation
+  - Dispersion 1.0
+
+Other:
+
+  - Strange switching between Caltrain routes still there.
+
+##### Supporting Analysis 
+
+[Path Traces - none yet]()
+
+##### Bellwether Paths
+
+`1710214_1` : FT doesn't find anything N of Geary, including the observed route downtown via the 1AX
+
+`1407624_2`	
+
+_Run 4_:  High probability paths have a transfer to the 19 Polk rather than just getting on the 47 or 49.  The 47 and 49 are found, but given <1% probabilities.  This is b/c the 19 has an egress distance of 0.06  whereas 47/49 have egress distance of 0.21. This is a cost difference of ~13 whereas the xfer only costs 5.  FT still strongly preferring the strange path with the transfer to the 9 and 19.  
+
+
+`3006352_2` person_trip_id: 7    
+
+Run 4: Tradeoff between egress distance and transfers.  Transfers are too cheap.
+
+`1710214_1` 
+Run 4: FT doesn't find anything N of Geary, including the observed route downtown via the 1AX
+
+
 ## Tier II: Regional Assignment and Computation Feasibility
 
 The second tier of calibration will utilize the full regional demand in order to assess the two remaining performance targets: the assignment as a whole as well as the computational efficiency.  
@@ -364,3 +430,5 @@ The second tier of calibration will utilize the full regional demand in order to
 ## Tier III: Regional Assignment with Feedback
 
 The final tier of calibration will assess the performance of the Fast-Trips parameters within a full SF-CHAMP model run.
+
+
