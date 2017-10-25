@@ -165,6 +165,17 @@ people:
     - title: linkedin
       url: http://www.linkedin.com/in/xiao-yun-jayne-chang-21133760/
       
+- name: Clint
+  lastname: Daniels
+  pic: clint.jpg
+  position: Software Development
+  affil: RSG
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/clintdaniels/
+    - github:
+      url: https://github.com/danielsclint
+      
 - name: Dave
   lastname: Ory
   pic: dave.png
