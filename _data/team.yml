@@ -173,7 +173,7 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/clintdaniels/
-    - github:
+    - title: github
       url: https://github.com/danielsclint
       
 - name: Dave
