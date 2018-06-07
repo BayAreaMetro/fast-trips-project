@@ -18,12 +18,10 @@ title: Library
 *[Fall 2016 Progress Report]({{ site.baseurl }}/library/2016_10_MTC_SHRP2_Quarterly_Report.pdf)*  
 *[Winter 2017 Progress Report]({{ site.baseurl }}/library/2017-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 *[Spring 2017 Progress Report]({{ site.baseurl }}/library/2017-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
-*[Summer 2017 Progress Report]({{ site.baseurl }}/library/2017-07-MTC-SHRP2-Quarterly-Progress-Report_withPerformance.pdf)* 
-*[Fall 2017 Progress Report]({{ site.baseurl }}/library/2017-10-MTC-SHRP2-Quarterly-Progress-Report_with-Performance-Metrics.pdf)* 
-*[Winter 2018 Progress Report]({{ site.baseurl }}/library/2018-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)* 
-*[Spring 2018 Progress Report]({{ site.baseurl }}/library/2018-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)* 
-
-
+*[Summer 2017 Progress Report]({{ site.baseurl }}/library/2017-07-MTC-SHRP2-Quarterly-Progress-Report_withPerformance.pdf)*  
+*[Fall 2017 Progress Report]({{ site.baseurl }}/library/2017-10-MTC-SHRP2-Quarterly-Progress-Report_with-Performance-Metrics.pdf)*  
+*[Winter 2018 Progress Report]({{ site.baseurl }}/library/2018-01-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
+*[Spring 2018 Progress Report]({{ site.baseurl }}/library/2018-04-MTC-SHRP2-Quarterly-Progress-Report.pdf)*  
 
 *[Grant Application]({{ site.baseurl }}/library/C10_MTC_Application.pdf)*
 
