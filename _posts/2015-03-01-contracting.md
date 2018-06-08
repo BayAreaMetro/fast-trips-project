@@ -23,7 +23,7 @@ A pre-condition for successful collaboration is proper motivation.  Our key reas
 
 1.  Each agency brings a unique and useful perspective, specifically:
 	* [SFCTA](http://www.sfcta.org/modeling) brings experience with [dynamic network models 
-	generally](www.github.com/sfcta/dta) and Fast-Trips specifically.  They also operate in 
+	generally](https://github.com/sfcta/dta) and Fast-Trips specifically.  They also operate in 
 	a jurisdiction with very real transit crowding problems. 
 	* [MTC](http://www.mtc.ca.gov) is a large, sophisticated MPO, with top-notch in-house 
 	contracting, legal, and travel modeling staff.  Further, we want to better leverage 
