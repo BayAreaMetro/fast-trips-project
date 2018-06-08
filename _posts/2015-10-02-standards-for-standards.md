@@ -50,7 +50,7 @@ of the world-wide web.
 
 ##### W3C
 
-[W3C](www.w3.org), the organization that standardizes the bulk of the soft internet uses *numbered 
+[W3C](https://www.w3.org/), the organization that standardizes the bulk of the soft internet uses *numbered 
 release versions* (e.g., HTML [5.0](http://www.w3.org/TR/html5/), [5.1](http://www.w3.org/TR/html51/), 
 etc) and then *dates* for small changes made between such as [HTML 5.1 from September 29th 
 2015](http://www.w3.org/TR/2015/WD-html51-20150929/).  
@@ -65,7 +65,7 @@ standards process, which dates back to the days of DARPAnet.  The process for de
 internet standards is of course documented by...its own standard: [ RFC2026 ](https://www.ietf.org/rfc/rfc2026.txt). 
 
 Standards are developed through the "Request for Comment" (better known as RFC) process.  All 
-RFCs are maintained on [www.rfc-editor.org](www.rfc-editor.org) and are assigned a serial number. 
+RFCs are maintained on [www.rfc-editor.org](https://www.rfc-editor.org/) and are assigned a serial number. 
  Not all RFCs are standards, but those that are go through an evolution from proposed -> draft 
 -> standard.  Standards also each have serial numbers (e.g. [STD 77](http://www.rfc-editor.org/info/std77)) 
 and new RFCs can obsolete or update existing standards.  So the STANDARD has a number and the RFC number
