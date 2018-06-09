@@ -63,7 +63,7 @@ title: Library
 
 ### Work in Progress
 
-*[Code Documentation](http://metropolitantransportationcommission.github.io/fast-trips/)*  
+*[Code Documentation](http://bayareametro.github.io/fast-trips/)*  
 *[Software Development Progress and Remaining Workplan]({{ site.baseurl }}/library/T6-Fast-TripsDevelopmentPlan.pdf)*  
 *[Dwell Time Estimation – Puget Sound](https://github.com/psrc/fast-trips_dwell_time_model)*  
 
@@ -96,7 +96,7 @@ title: Library
   * [TRB ITM 2016 Lightning Talk on Software Development Approach](https://mtcdrive.box.com/s/3cbtq2ua5jg288keddvfr6w4jxnb8qyj)  
   * [Computing Performance]() FORTHCOMING  
   * [Research track scope of work](http://fast-trips.mtc.ca.gov/library/ResearchTrack-PublicWorkplan.pdf) 
-  * [API Documentation](http://data.mtc.ca.gov/fast-trips/)  
+  * [API Documentation](http://bayareametro.github.io/fast-trips/)  
   
 ##### Localization: Making it useful for the Bay Area and other regions
  
