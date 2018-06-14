@@ -73,6 +73,13 @@ title: Library
 *[Dynamic Passenger Assignment Issues]({{ site.baseurl }}/library/TRB17-Issues.pdf)*  
 *[Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management.]({{ site.baseurl }}/library/TRB17-OpenData.pdf)*  
 
+### Research Needs Assessment
+Summary Memo  FORTHCOMING  
+*[1. Service Unreliability in Schedule-Based Dynamic Transit Trip Assignment](https://mtcdrive.box.com/s/5k5m8qujxxlzcb4arpgis6b1tvxyjr08)*  
+*[2. Efficient and Effective Algorithms for Congested Transit Assignment](https://mtcdrive.box.com/s/h4be3l3ukmwax6a9wyopg4byws2b8gm5)*  
+*[3. Empirically Valid and Computationally Efficient Transit Passenger Route Choice Model](https://mtcdrive.box.com/s/3efsn5m6jdi3b6jzlg13r1n4t9klstya)*  
+*[4. Consistent and Computationally Efficient Transit Passenger Route Choice Model Considering both Operational and Behavioral Variability](https://mtcdrive.box.com/s/jlqfurd63ou05rvvcr61b6smn8xlctmh)*  
+
 
 ### References
 
