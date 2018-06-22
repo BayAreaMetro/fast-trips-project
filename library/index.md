@@ -45,7 +45,7 @@ title: Library
 *[Transit Network Data Standard - Official Source](http://github.com/osplanning-data-standards/GTFS-PLUS)*  
 *[Transit Networks Data Standard Memo – v0.1]({{ site.baseurl }}/library/T2-NetworkDesign-WorkingCopy-July2015V0.1.pdf)*  
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
-*[Network Creation Process – Bay Area](http://github.com/sdrewc/NetworkWrangler/tree/fasttrips)*  
+*[Network Creation Process – Bay Area](https://github.com/sfcta/NetworkWrangler/tree/fasttrips)*  
 *[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
 *[SF-CHAMP Networks, v1.13](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*  
 *[PSRC Networks, v1.1](https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp)*
