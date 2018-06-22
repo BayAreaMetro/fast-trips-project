@@ -41,7 +41,7 @@ transferring them to the new data standard requires a lot of care and thought.
  * The [PSRC Version](https://github.com/psrc/fast-trips_network_builder) has undergone 
 small-scale testing and will be scaling to entire network this week.  It utilizes the 
 EMME API, so may be of limited use outside of EMME users.
- * The [SFCTA version](https://github.com/sdrewc/NetworkWrangler/tree/fasttrips) is within their 
+ * The [SFCTA version](https://github.com/sfcta/NetworkWrangler/tree/fasttrips) is within their 
 stand-alone NetworkWrangler and is slightly behind PSRC in maturity.
 
 ### Demand Validation
