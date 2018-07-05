@@ -18,18 +18,18 @@ title: Technical Details
 			<h4> Network Data & Design
 			</h4>
 			<p class="text-muted">
-			  This task encompasses the development of schedule-based transit networks in 
-			  both regions, access and transfer links, and any setup or maintenance tools 
-			  to facilitate the continued use of the tool.
+			  The team developed data-standards for schedule-based transit networks, tools to develop these networks in based on SFCTA and PSRC model data, and base-year (2012) networks for both the Puget Sound and Bay Area regions.
 			</p> 
-			<div class="text-muted">Interim Work Products:		
+			<div class="text-muted">Work Products:		
 			<ul>
-			  <li><a href="http://github.com/osplanning-data-standards/GTFS-PLUS">Network Data Standard</a></li>
-			  <li><a href="http://github.com/psrc/fast-trips_network_builder">Transit Network Creation – with EMME</a></li>
-			  <li><a href="https://github.com/sfcta/NetworkWrangler/tree/fasttrips">Transit Network Creation – with Network Wrangler</a></li>
-			  <li><a href="https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz">SF-CHAMP Fast-Trips Networks, v1.13</a></li>
+			  <li><a href="https://mtcdrive.box.com/s/4qp0aqinku9p0fxp2cd9ysa5mcmc5q25">Network Development Memo</a></li>
+			  <li><a href="http://github.com/osplanning-data-standards/GTFS-PLUS">GTFS-PLUS Transit Network Data Standard</a></li>
+			  <li><a href="http://github.com/psrc/fast-trips_network_builder">Transit Network Creation Tool – with EMME</a></li>
+			  <li><a href="https://github.com/sfcta/NetworkWrangler/tree/fasttrips">Transit Network Creation Tool – with Network Wrangler</a></li>
+			  <li><a href="https://mtcdrive.box.com/s/o22r1y3k57ec1enurcqxkrhg2qt880kj">SF-CHAMP Fast-Trips Networks, v1.14</a></li>
 			   <li><a href="https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp">PSRC Fast-Trips Networks, v1.1</a></li>
-			  <li><a href="https://github.com/psrc/fast-trips_dwell_time_model">Dwell Time Estimations</a></li>
+			  <li><a href="https://mtcdrive.box.com/s/qz6f54yjw8etq69nzkni83d9e99fx5xa">Dwell Time Estimation Memo</a></li>
+			  <li><a href="https://github.com/psrc/fast-trips_dwell_time_model">Dwell Time Estimation files</a></li>
 			</ul>
 			</div>
 		</div>
@@ -41,17 +41,14 @@ title: Technical Details
 			<h4> Transit Demand
 			</h4>
 			<p class="text-muted">
-			This task will validate, test, and adjust disaggregate transit demand data 
-			from the two regions using available observed data in order to ensure the 
-			demand inputs for Fast-Trips calibration are consistent with observed behavior.
-			  This will allow us in the calibration phase to ascertain the network model 
-			  deficiencies, and not confound them with demand issues.	
+			This developed the dyno-demand disaggregate transit demand data standard, processes to create dyno-demand files based on SFCTA and PSRC model data, and base-year (2012) demand for both the Puget Sound and Bay Area regions.  Demand from the Bay Area was validated against on-board survey and household travel survey data.
 			</p> 
-			<div class="text-muted">Interim Work Products:		
+			<div class="text-muted">Work Products:		
 			<ul>
+			   <li><a href="https://mtcdrive.box.com/s/xblz2n53khg1mjjhmje4hwzkobkgqbog">Demand Development Memo</a></li>
 			   <li><a href="http://github.com/osplanning-data-standards/dyno-demand">Demand Data Standards</a></li>
 			   <li><a href="http://github.com/sfcta/fast-trips_demand_converter">Demand Translation – SF-CHAMP</a></li>
-			   <li><a href="https://mtcdrive.box.com/s/2eg460coqwq4jlczsbaxt0yh4crzkixl">Demand v0.3 – SF-CHAMP</a></li>
+			   <li><a href="https://mtcdrive.box.com/s/ag6d9dosbfrya3u6sq0l6sk65g9im0ue">Demand v0.5 – SF-CHAMP</a></li>
 			   <li><a href="http://github.com/psrc/fast-trips_demand_converter">Demand Translation – SoundCast</a></li>
 			   <li><a href="https://mtcdrive.box.com/s/urb1hipzqs4s75g8mnzov665mmrlc7pv">Demand v1.1 – SoundCast</a></li>
 			</ul>
@@ -91,10 +88,18 @@ title: Technical Details
 			<h4> Transit Performance Data
 			</h4>
 			<p class="text-muted">
-			  This task includes the collation, evaluation, and packaging of transit 
-			  performance data that will be used to evaluate the performance of the 
-			  modeling system.
+			  The team developed the GTFS-STAT and extended the GTFS-RIDE data standards and collated, evaluated, and packaged transit performance data in those formats to be used in regional validation.
 			</p>
+			<div class="text-muted">Work Products:		
+			<ul>
+				<li><a href="https://mtcdrive.box.com/s/b3al07qzhsmk9pkdya04hp5qn30ra5sj">Performance Data Development Memo</a></li>
+				<li><a href="https://github.com/osplanning-data-standards/GTFS-STAT">GTFS-STAT Transit Performance Data Standard</a></li>
+				<li><a href="https://github.com/sfcta/gtfs_stat_maker">GTFS-STAT and GTFS_RIDE Creation Process</a></li>
+				<li><a href="https://mtcdrive.box.com/s/xwg1i42biggqe0h8o8q581974sx7ltq4">GTFS-STAT Bay Area</a></li>
+				<li><a href="https://github.com/ODOT-PTS/GTFS-ride/pull/11">GTFS-RIDE Transit Ridership Data Standard</a></li>
+				<li><a href="https://mtcdrive.box.com/s/m84zrpsh8thni4y4ybdsvpwce4j9vn8d">GTFS-RIDE Bay Area</a></li>
+			</ul>
+			</div>
 		</div>
 	<!-- /col-md-4 col-sm-6 task-item -->
 	</div>
@@ -104,15 +109,13 @@ title: Technical Details
 			<h4> Software Implementation
 			</h4>
 			<p class="text-muted">
-			This task develops the transit-simulation software Fast-Trips and includes
-			the refactoring of Fast-Trips to Python, addition of features for skimming,
-			route choice generation, and the development of a performance indicator
-			library. 
+			This task developed the transit-simulation software Fast-Trips and includes
+			the refactoring of Fast-Trips to Python and several methodological improvements an feature development.
 			</p> 
-			<div class="text-muted">Interim Work Products:		
+			<div class="text-muted">Work Products:		
 			<ul>
-				<li><a href="https://github.com/BayAreaMetro/fast-trips">Fast-Trips Software and Users Guide</a></li>
-				<li><a href="http://bayareametro.github.io/fast-trips/">Fast-Trips API Documentation</a></li>
+				<li><a href="https://github.com/BayAreaMetro/fast-trips">Fast-Trips Software</a></li>
+				<li><a href="http://bayareametro.github.io/fast-trips/">Fast-Trips Users Guide</a></li>
 				<li><a href="https://github.com/Fast-Trips/fast-trips-tutorial">Fast-Trips Tutorial</a></li>
 			</ul>
 			</div>
@@ -122,37 +125,17 @@ title: Technical Details
 	
 	<div class="col-md-4 col-sm-6 task-item" id="test-case">
 		<div class="task-caption">
-			<h4> Test Case Development
+			<h4> Examples Development
 			</h4>
 			<p class="text-muted">
 			  This task includes the specifying and management of various scenarios used 
 			  for testing software validity and model performance.  Test cases are found in the <a href="https://github.com/MetropolitanTransportationCommission/fast-trips/tree/master/Examples"
-			  >/examples directory of Fast-Trips GitHub repository. </a>
+			  >/examples directory of Fast-Trips GitHub repository</a> and documented in <a href="https://mtcdrive.box.com/s/1j9iv693g6pd824svy0h4j4zlfery1jt"> this memo</a>.
 			</p>
 		</div>
 	<!-- /col-md-4 col-sm-6 task-item -->
 	</div>
 	
-	<!-- /row -->
-	</div>
-	<div class="row">
-
-	<div class="col-md-4 col-sm-6 task-item" id="implementation">
-		<div class="task-caption">
-			<h4> Implementation, Testing, and Calibration
-			</h4>
-			<p class="text-muted">
-			  This task includes the implementation and testing of the Fast-Trips transit
-			  simulation into the SF-CHAMP and SoundCast model systems, and the calibration
-			  of Fast-Trips in the SF-CHAMP system. 
-			</p>
-		</div>
-	<!-- /col-md-4 col-sm-6 task-item -->
-	</div>
-	
-	
-	<!-- /row -->
-	</div> 
 	
 	
 	<div class="row">
@@ -170,11 +153,11 @@ title: Technical Details
 			</h4>
 			<p class="text-muted">
 			  <ul>
-			 	<li> Demand: <a href="http://github.com/osplanning-data-standards/dyno-demand">Proposed dyno-demand disaggregate demand standard</a> and <a href="{{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf">Memo</a></li>
-			 	<li> Transit Networks: <a href="http://github.com/osplanning-data-standards/GTFS-PLUS">Proposed GTFS-PLUS standard</a> and <a href="{{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf">Memo</a></li>
-			    <li> Transit Paths: <a href="https://github.com/osplanning-data-standards/dyno-path/tree/dev">Proposed dyno-path standard</a></li>
-			    <li> Transit Performance: <a href="https://github.com/osplanning-data-standards/GTFS-STAT">Proposed GTFS-STAT standard</a></li>
-			    <li> Transit Ridership: <a href="https://github.com/ODOT-PTS/GTFS-ride">GTFS-RIDE standard</a></li>
+			 	<li> Demand: <a href="http://github.com/osplanning-data-standards/dyno-demand">dyno-demand disaggregate demand standard</a> and <a href="{{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf">Memo</a></li>
+			 	<li> Transit Networks: <a href="http://github.com/osplanning-data-standards/GTFS-PLUS">GTFS-PLUS standard</a> and <a href="{{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf">Memo</a></li>
+			    <li> Transit Paths: <a href="https://github.com/osplanning-data-standards/dyno-path/tree/dev">dyno-path standard</a></li>
+			    <li> Transit Performance: <a href="https://github.com/osplanning-data-standards/GTFS-STAT">GTFS-STAT standard</a></li>
+			    <li> Transit Ridership: <a href="https://github.com/ODOT-PTS/GTFS-ride/pull/11">GTFS-RIDE standard</a></li>
 			  </ul>
 			</p>
 		</div>

@@ -38,43 +38,69 @@ title: Library
 *[TRB ITM 2016 Lightning Talk on Software Development Approach](https://mtcdrive.box.com/s/3cbtq2ua5jg288keddvfr6w4jxnb8qyj)*  
 *[TRB ITM 2016 Workshop on SHRP2-C10](https://mtcdrive.box.com/s/dzh7u7aln38hl4fq21cn23skaeh0o5g7)*  
 
-### Working Standards
+### Data Standards
 
 ##### Networks
 
 *[Transit Network Data Standard - Official Source](http://github.com/osplanning-data-standards/GTFS-PLUS)*  
-*[Transit Networks Data Standard Memo – v0.1]({{ site.baseurl }}/library/T2-NetworkDesign-WorkingCopy-July2015V0.1.pdf)*  
 *[Transit Networks Data Standard Memo – v0.2]({{ site.baseurl }}/library/T2-NetworkDesign-StaticCopy-Sept2015V0.2.pdf)*  
-*[Network Creation Process – Bay Area](https://github.com/sfcta/NetworkWrangler/tree/fasttrips)*  
-*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
-*[SF-CHAMP Networks, v1.13](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*  
-*[PSRC Networks, v1.1](https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp)*
 
 ##### Demand
 
 *[Travel Demand Data Standard - Official Source](https://github.com/osplanning-data-standards/dyno-demand)*  
 *[Travel Demand Data Standard Memo]({{ site.baseurl }}/library/T3-TransitDemandData-WorkingCopy-July2015.pdf)*  
-*[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*  
-*[Demand Translation – SoundCast](http://github.com/psrc/fast-trips_demand_converter)*  
-*[SF-CHAMP Demand, v0.3](https://mtcdrive.box.com/s/2eg460coqwq4jlczsbaxt0yh4crzkixl)*  
-*[Soundcast Demand, v1.1](https://mtcdrive.box.com/s/urb1hipzqs4s75g8mnzov665mmrlc7pv)*
 
 ##### Paths
 
 *[Dyno-Path Data Standard – Official Source ](https://github.com/osplanning-data-standards/dyno-path)*   
 
-### Work in Progress
+##### Performance Data
 
-*[Code Documentation](http://bayareametro.github.io/fast-trips/)*  
-*[Software Development Progress and Remaining Workplan]({{ site.baseurl }}/library/T6-Fast-TripsDevelopmentPlan.pdf)*  
-*[Dwell Time Estimation – Puget Sound](https://github.com/psrc/fast-trips_dwell_time_model)*  
+*[GTFS-STAT Transit Performance](https://github.com/osplanning-data-standards/GTFS-STAT)*  
+*[GTFS-Ride Transit Ridership]()*  
 
+### Data Development
+
+##### Networks
+
+*[Network Development Memo](https://mtcdrive.box.com/s/4qp0aqinku9p0fxp2cd9ysa5mcmc5q25)*  
+*[Network Creation Process – Bay Area](https://github.com/sfcta/NetworkWrangler/tree/fasttrips)*  
+*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
+*[SF-CHAMP Networks, v1.14](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*  
+*[PSRC Networks, v1.1](https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp)*  
+*[Dwell Time Development Memo](https://mtcdrive.box.com/s/qz6f54yjw8etq69nzkni83d9e99fx5xa)*  
+*[Dwell Time Estimation Files](https://github.com/psrc/fast-trips_dwell_time_model)*  
+
+##### Demand
+
+*[Demand Development Memo](https://mtcdrive.box.com/s/xblz2n53khg1mjjhmje4hwzkobkgqbog)*  
+*[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*  
+*[Demand Translation – SoundCast](http://github.com/psrc/fast-trips_demand_converter)*  
+*[SF-CHAMP Demand, v0.5](https://mtcdrive.box.com/s/ag6d9dosbfrya3u6sq0l6sk65g9im0ue)*  
+*[Soundcast Demand, v1.1](https://mtcdrive.box.com/s/urb1hipzqs4s75g8mnzov665mmrlc7pv)*  
+
+##### Validation Data 
+
+*[Transit Performance Data memo](https://mtcdrive.box.com/s/b3al07qzhsmk9pkdya04hp5qn30ra5sj)*
+*[GTFS-STAT and GTFS-RIDE creation process](https://github.com/sfcta/gtfs_stat_maker)*  
+*[On-Board Survey and Household Travel Survey dyno-path and dyno-demand creation process]()*  
+
+### Fast-Trips Software
+
+*[Code](https://github.com/bayareametro/fast-trips)*  
+*[Documentation](http://bayareametro.github.io/fast-trips/)*  
+*[Tutorials](https://github.com/fast-trips)*  
+*[Example documentation](https://mtcdrive.box.com/s/1j9iv693g6pd824svy0h4j4zlfery1jt)*  
+
+### Interim Memos on Methodology
+
+*These memos are documented here for their potential usefulness in developing future work plans and are not reviewed for accuracy like a final work product*
 
 ### Papers
 *[Dynamic Passenger Assignment Issues]({{ site.baseurl }}/library/TRB17-Issues.pdf)*  
 *[Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management.]({{ site.baseurl }}/library/TRB17-OpenData.pdf)*  
 
-### Research Needs Assessment
+### Research Needs Assessment 
 Summary Memo  FORTHCOMING  
 1. *[Service Unreliability in Schedule-Based Dynamic Transit Trip Assignment](https://mtcdrive.box.com/s/5k5m8qujxxlzcb4arpgis6b1tvxyjr08)*  
 2. *[Efficient and Effective Algorithms for Congested Transit Assignment](https://mtcdrive.box.com/s/h4be3l3ukmwax6a9wyopg4byws2b8gm5)*  
