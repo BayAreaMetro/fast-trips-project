@@ -5,7 +5,16 @@ title: Library
 ---
 ### Deliverables
 
-*[Task 1 Deliverable: Updated Workplan]({{ site.baseurl }}/library/2015-04-07-RELEASE-Workplan-Technical-Memorandum.pdf)*
+*[Task 1: Updated Workplan]({{ site.baseurl }}/library/2015-04-07-RELEASE-Workplan-Technical-Memorandum.pdf)*  
+*[Task 2: Network Development Memo](https://mtcdrive.box.com/s/4qp0aqinku9p0fxp2cd9ysa5mcmc5q25)*  
+*[Task 3: Demand Development Memo](https://mtcdrive.box.com/s/xblz2n53khg1mjjhmje4hwzkobkgqbog)*  
+*[Task 4: Calibration Memo](https://mtcdrive.box.com/s/62mykhugu5ptjx50xor0kjfojms75nnb)*  
+*[Task 5: Performance Data Memo](https://mtcdrive.box.com/s/b3al07qzhsmk9pkdya04hp5qn30ra5sj)*  
+*[Task 6: User's Guide](http://bayareametro.github.io/fast-trips/)*  
+*[Task 7: Test Scenario Memo](https://mtcdrive.box.com/s/1j9iv693g6pd824svy0h4j4zlfery1jt)*  
+*[Task 8: Folded into Task 4 Memo ](https://mtcdrive.box.com/s/62mykhugu5ptjx50xor0kjfojms75nnb)*  
+*[Task 9: Research Needs](https://mtcdrive.box.com/s/8e5qpytduzw9kndw0j36urwuu9r7kuzb)*  
+
 
 ### Progress Reports and Application
 
@@ -65,17 +74,17 @@ title: Library
 
 *[Network Development Memo](https://mtcdrive.box.com/s/4qp0aqinku9p0fxp2cd9ysa5mcmc5q25)*  
 *[Network Creation Process – Bay Area](https://github.com/sfcta/NetworkWrangler/tree/fasttrips)*  
-*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips_network_builder)*  
+*[Network Creation Process – Puget Sound](http://github.com/psrc/fast-trips-psrc/fast-trips_network_builder)*  
 *[SF-CHAMP Networks, v1.14](https://mtcdrive.box.com/s/3i3sjbzpsrbhxlwpl4v4vx9b0movferz)*  
 *[PSRC Networks, v1.1](https://mtcdrive.box.com/s/eig2bwudzfa2m7awch0mb9tu71ifp0pp)*  
 *[Dwell Time Development Memo](https://mtcdrive.box.com/s/qz6f54yjw8etq69nzkni83d9e99fx5xa)*  
-*[Dwell Time Estimation Files](https://github.com/psrc/fast-trips_dwell_time_model)*  
+*[Dwell Time Estimation Files](https://github.com/psrc/fast-trips-psrc/fast-trips_dwell_time_model)*  
 
 ##### Demand
 
 *[Demand Development Memo](https://mtcdrive.box.com/s/xblz2n53khg1mjjhmje4hwzkobkgqbog)*  
 *[Demand Translation – SF-CHAMP](http://github.com/sfcta/fast-trips_demand_converter)*  
-*[Demand Translation – SoundCast](http://github.com/psrc/fast-trips_demand_converter)*  
+*[Demand Translation – SoundCast](http://github.com/psrc/fast-trips-psrc/fast-trips_demand_converter)*  
 *[SF-CHAMP Demand, v0.5](https://mtcdrive.box.com/s/ag6d9dosbfrya3u6sq0l6sk65g9im0ue)*  
 *[Soundcast Demand, v1.1](https://mtcdrive.box.com/s/urb1hipzqs4s75g8mnzov665mmrlc7pv)*  
 
@@ -107,7 +116,9 @@ title: Library
 *[Making Open Transportation Data Useful and Accessible: Recommendations for Good Practices in Open Data Standards Management.]({{ site.baseurl }}/library/TRB17-OpenData.pdf)*  
 
 ### Research Needs Assessment 
-Summary Memo  FORTHCOMING  
+
+[Research Needs Summary](https://mtcdrive.box.com/s/8e5qpytduzw9kndw0j36urwuu9r7kuzb)  
+
 1. *[Service Unreliability in Schedule-Based Dynamic Transit Trip Assignment](https://mtcdrive.box.com/s/5k5m8qujxxlzcb4arpgis6b1tvxyjr08)*  
 2. *[Efficient and Effective Algorithms for Congested Transit Assignment](https://mtcdrive.box.com/s/h4be3l3ukmwax6a9wyopg4byws2b8gm5)*  
 3. *[Empirically Valid and Computationally Efficient Transit Passenger Route Choice Model](https://mtcdrive.box.com/s/3efsn5m6jdi3b6jzlg13r1n4t9klstya)*  
