@@ -1,10 +1,10 @@
-# For RSS
+# For RSS and site metadata
 name: Fast-Trips Tri-Agency Implementation
 description: The wild tales of three public agencies taking a research project from a university and using it in practice.
-url: http://127.0.0.1:4000/updates/
+url: https://bayareametro.github.io
+baseurl: /fast-trips-project
 
 # Site settings
-baseurl:  
 title: Moving Fast-Trips from Research to Practice...a three-agency experience
 
 timezone: America/Los_Angeles
@@ -20,7 +20,7 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
-    url: http://github.com/metropolitantransportationcommission
+    url: https://github.com/bayareametro/fast-trips-project
 
 # Postal address (add as many lines as necessary)
 address:
@@ -31,3 +31,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

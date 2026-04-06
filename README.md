@@ -1,45 +1,58 @@
 Fast-Trips Project Website
-====================
+==========================
 
-SITE STATUS = FOR MGT REVIEW
+This repository contains the Jekyll site for the Fast-Trips project.
 
-## TODO
+## Site URL
 
-#####Content
-* Add more photos to pages
-* Add all team members
-* Add post on progress report
+- Production: https://bayareametro.github.io/fast-trips-project/
 
-#####HTML/CSS
-* Make post photos the right size
-* Add tags to posts
-* Create blog by tag
-* Fix main title text buffer
+## Prerequisites
 
-# Organization is as follows...
+- Ruby 3.2+ recommended
+- Bundler (`gem install bundler`)
 
-### Library of Documents
+## Local development
 
-Documents are stored in '/library' and are listed in '/library/index.md'
+1. Install dependencies:
 
-###Posts
+	```bash
+	bundle install
+	```
 
-Posts are in '/_posts'
-Post images are in '/img/posts'
+2. Run the site locally:
 
-###Team and Partners
+	```bash
+	bundle exec jekyll serve
+	```
 
-Team members and info are in '/data/_team.yml'
+3. Open:
 
-Partner agencies and info are in '/data/_partners.html'
+	- http://127.0.0.1:4000/fast-trips-project/
 
-Profile Images are in '/img/team/'
+## Build for production
 
+```bash
+bundle exec jekyll build
+```
 
-=========
+Build output is written to `_site/`.
 
-###Credits
-Loosely based on the Agency theme, which is based on based on 
-[Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+## Deployment
 
-For more details about Jekyll, read [documentation](http://jekyllrb.com/)
+Deployment is handled by GitHub Actions in [.github/workflows/jekyll.yml](.github/workflows/jekyll.yml). Any push to `main` triggers a build and deploy to GitHub Pages.
+
+## Repository organization
+
+- Posts: `/_posts`
+- Layouts: `/_layouts`
+- Includes: `/_includes`
+- Data files: `/_data`
+- Custom plugin: `/_plugins/hex_to_rgb.rb`
+- Images: `/img`
+- Documents: `/library`
+
+## Credits
+
+Loosely based on the Agency theme:
+http://startbootstrap.com/templates/agency/
